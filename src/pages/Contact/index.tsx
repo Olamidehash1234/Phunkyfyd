@@ -75,7 +75,7 @@ const ContactComponent = () => {
                   value={formData.message}
                   onChange={handleInputChange}
                   placeholder="Message To Us"
-                  rows={4}
+                  rows={5}
                   className="w-full pb-3 lg:pb-[0px] lg:text-[18px] text-[#040323] font-medium placeholder-[#040323B2] bg-transparent border-0 border-b border-[#04032399] focus:border-[#04032399] lg:leading-[38px] focus:outline-none transition-colors duration-200"
                 />
               </div>

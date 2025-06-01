@@ -22,7 +22,7 @@ const OurDesignSolutions: React.FC = () => {
         {/* Right Section - 40% width */}
         <div className="w-full lg:w-[40%] h-full flex flex-col">
           {/* Top Text - 50% height */}
-          <div className="h-1/2 flex flex-col justify-center text-4xl lg:text-[96px] font-bold leading-tight lg:leading-[90px]">
+          <div className="h-1/2 flex flex-col justify-center text-4xl lg:text-[94px] font-bold leading-tight lg:leading-[90px]">
             <h2 className="text-black">OUR</h2>
             <h2 className="text-yellow-600">DESIGN</h2>
             <h2 className="text-black">SOLUTIONS</h2>
