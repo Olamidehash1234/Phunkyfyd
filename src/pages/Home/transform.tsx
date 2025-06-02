@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const TransformSection: React.FC = () => {
   return (
@@ -10,12 +11,14 @@ const TransformSection: React.FC = () => {
           </h2>
           
            <div className="flex items-center space-x-4 lg:space-x-[40px]">
-            <span className=" font-medium text-sm lg:text-[16px]">
-              Speak With Us Today
-            </span>
-            <button className="group w-12 h-12 border border-[#040323]  rounded-full flex items-center justify-center hover:border-yellow-500 transition-all duration-300">
-              <img src="/icons/home/arrow.svg" alt="" />
-            </button>
+            <Link to="/contact" className="flex items-center space-x-4">
+              <span className="font-medium text-sm lg:text-[16px]">
+                Speak With Us Today
+              </span>
+              <button className="group w-12 h-12 border border-[#040323] rounded-full flex items-center justify-center hover:border-yellow-500 transition-all duration-300">
+                <img src="/icons/home/arrow.svg" alt="" />
+              </button>
+            </Link>
           </div>
         </div>
       </div>

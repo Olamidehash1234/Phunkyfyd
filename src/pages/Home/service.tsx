@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const ServicesComponent: React.FC = () => {
   return (
@@ -16,12 +17,14 @@ const ServicesComponent: React.FC = () => {
             </div>
 
             <div className="flex items-center justify-center lg:justify-start space-x-4">
-              <span className="font-semibold text-sm lg:text-[16px]">
-                View All Services
-              </span>
-              <button className="group w-12 h-12 border border-[#040323]  rounded-full flex items-center justify-center hover:border-yellow-500 transition-all duration-300">
-                <img src="/icons/home/arrow.svg" alt="" />
-              </button>
+              <Link to="/services" className="flex items-center space-x-4">
+                <span className="font-semibold text-sm lg:text-[16px]">
+                  View All Services
+                </span>
+                <button className="group w-12 h-12 border border-[#040323] rounded-full flex items-center justify-center hover:border-yellow-500 transition-all duration-300">
+                  <img src="/icons/home/arrow.svg" alt="" />
+                </button>
+              </Link>
             </div>
           </div>
 

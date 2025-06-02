@@ -1,4 +1,4 @@
-// import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Footer: React.FC = () => {
   return (
@@ -20,18 +20,18 @@ const Footer: React.FC = () => {
 
         {/* Middle Section */}
         <div className="flex lg:flex-col gap-4">
-          <a href="#about" className="text-[#040323] font-semibold lg:text-[18px] hover:text-black">
+          <Link to="/about" className="text-[#040323] font-semibold lg:text-[18px] hover:text-black">
             About Us
-          </a>
-          <a href="#services" className="text-[#040323] font-semibold lg:text-[18px] hover :text-black">
+          </Link>
+          <Link to="/services" className="text-[#040323] font-semibold lg:text-[18px] hover:text-black">
             Services
-          </a>
-          <a href="#portfolio" className="text-[#040323] font-semibold lg:text-[18px] hover :text-black">
+          </Link>
+          <Link to="/portfolio" className="text-[#040323] font-semibold lg:text-[18px] hover:text-black">
             Portfolio
-          </a>
-          <a href="#contact" className="text-[#040323] font-semibold lg:text-[18px] hover :text-black">
+          </Link>
+          <Link to="/contact" className="text-[#040323] font-semibold lg:text-[18px] hover:text-black">
             Contact Us
-          </a>
+          </Link>
         </div>
 
         {/* Right Section */}

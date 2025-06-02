@@ -1,8 +1,9 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const AboutSection: React.FC = () => {
   return (
-    <div className="w-full pt-[60px] px-4 lg:px-20 lg:pt-[89px]">
+    <div className="w-full pt-[60px] px-4 lg:px-20 lg:pt-[89px] lg:pb-[80px]">
       <div className="flex flex-col lg:flex-row items-center gap-8 lg:gap-[49px]">
         {/* Left column - Images */}
         <div className="w-full lg:w-[55%] flex lg:flex-row lg:gap-[10px] gap-[10px] lg:items-end">
@@ -33,12 +34,14 @@ const AboutSection: React.FC = () => {
             quality and meticulous attention to detail.
           </p>
           <div className="flex items-center space-x-4">
-            <span className=" font-semibold text-sm lg:text-[16px]">
-              Learn More About Us
-            </span>
-            <button className="group w-12 h-12 border border-[#040323]  rounded-full flex items-center justify-center hover:border-yellow-500 transition-all duration-300">
-              <img src="/icons/home/arrow.svg" alt="" />
-            </button>
+            <Link to="/about" className="flex items-center space-x-4">
+              <span className="font-semibold text-sm lg:text-[16px]">
+                Learn More About Us
+              </span>
+              <button className="group w-12 h-12 border border-[#040323] rounded-full flex items-center justify-center hover:border-yellow-500 transition-all duration-300">
+                <img src="/icons/home/arrow.svg" alt="" />
+              </button>
+            </Link>
           </div>
         </div>
       </div>
