@@ -4,6 +4,16 @@ import { Link } from "react-router-dom";
 
 const Navbar: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setIsScrolled(window.scrollY > 0);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
 
   // Prevent scrolling when mobile menu is open
   useEffect(() => {
@@ -23,7 +33,11 @@ const Navbar: React.FC = () => {
 
   return (
     <>
-      <nav className="border-b border-[#0403231A] bg-white fixed top-0 left-0 right-0 z-50">
+      <nav
+        className={`border-b border-[#0403231A] bg-[#FDFCF6] transform transition-all duration-500 ease-in-out w-full ${
+          isScrolled ? "fixed top-0 left-0 right-0 z-50 translate-y-0" : "relative -translate-y-1"
+        }`}
+      >
         <div className="px-4 lg:px-[80px]">
           <div className="flex justify-between items-center h-16 md:h-[69px]">
             {/* Company Name - Left */}
@@ -91,7 +105,7 @@ const Navbar: React.FC = () => {
       {/* Dark Overlay */}
       {isMenuOpen && (
         <div
-          className="fixed inset-0 bg-black/50 z-40 lg:hidden"
+          className="fixed inset-0 bg-black/50 z-40 lg:hidden transition-opacity duration-300"
           onClick={() => setIsMenuOpen(false)}
         />
       )}

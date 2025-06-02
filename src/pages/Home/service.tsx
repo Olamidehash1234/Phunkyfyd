@@ -15,8 +15,8 @@ const ServicesComponent: React.FC = () => {
               </h2>
             </div>
 
-            <div className="flex items-center space-x-4">
-              <span className=" font-semibold text-sm lg:text-[16px]">
+            <div className="flex items-center justify-center lg:justify-start space-x-4">
+              <span className="font-semibold text-sm lg:text-[16px]">
                 View All Services
               </span>
               <button className="group w-12 h-12 border border-[#040323]  rounded-full flex items-center justify-center hover:border-yellow-500 transition-all duration-300">

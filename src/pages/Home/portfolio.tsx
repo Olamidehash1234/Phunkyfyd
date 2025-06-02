@@ -77,8 +77,8 @@ const Portfolio = () => {
            <div className="group cursor-pointer overflow-hidden bg-white relative">
             <div className="h-[250px] lg:h-[600px] overflow-hidden">
               <img
-                src={portfolioImages[1].src}
-                alt={portfolioImages[1].alt}
+                src={portfolioImages[2].src}
+                alt={portfolioImages[2].alt}
                 className="w-full h-full object-cover"
               />
               <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-center items-center text-white">
