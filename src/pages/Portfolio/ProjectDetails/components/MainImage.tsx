@@ -4,7 +4,7 @@ interface MainImageProps {
 
 const MainImage = ({ mainImage }: MainImageProps) => {
   return (
-    <div className="w-full h-[300px] lg:h-[935px] mb-[40px] lg:mb-[0px] px-[16px] lg:px-[80px]">
+    <div className="w-full h-[300px] lg:h-[935px] mb-[0px] lg:mb-[0px] px-[16px] lg:px-[80px]">
       <img
         src={mainImage}
         alt="Project Main Image"

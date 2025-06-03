@@ -2,7 +2,7 @@ import React from "react";
 
 const OurDesignSolutions: React.FC = () => {
   return (
-    <section className="w-full py-10 lg:pt-[80px] lg:pb-[0px] px-4 lg:px-12 lg:px-[80px]">
+    <section className="w-full py-10 lg:pt-[80px] lg:pb-[0px] px-4 lg:px-[80px]">
       <div
         className="max-w-8xl h-auto lg:h-[573px] mx-auto flex flex-col lg:flex-row gap-6 items-start"
         // style={{ height: "573px" }}
@@ -22,10 +22,19 @@ const OurDesignSolutions: React.FC = () => {
         {/* Right Section - 40% width */}
         <div className="w-full lg:w-[40%] h-full flex flex-col">
           {/* Top Text - 50% height */}
-          <div className="h-1/2 flex flex-col justify-center text-[50px] lg:text-[93px] font-bold leading-tight lg:leading-[90px]">
-            <h2 className="text-black">OUR</h2>
-            <h2 className="text-yellow-600">DESIGN</h2>
-            <h2 className="text-black">SOLUTIONS</h2>
+          <div className="h-1/2 flex flex-col justify-center 
+            text-[50px] leading-tight
+            lg:text-[93px] lg:leading-[90px]
+            min-[1093px]:text-[83px]
+            min-[1242px]:text-[85px]
+            min-[1366px]:text-[87px]
+            min-[1517px]:text-[96px]
+            min-[1707px]:text-[111px]
+            min-[1821px]:text-[119px]
+            font-bold">
+            <h2 className="text-[#040323]">OUR</h2>
+            <h2 className="text-[#ECAF21]">DESIGN</h2>
+            <h2 className="text-[#040323]">SOLUTIONS</h2>
           </div>
 
           {/* Bottom Image - 50% height */}

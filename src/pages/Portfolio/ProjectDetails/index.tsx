@@ -44,7 +44,7 @@ const ProjectDetails = () => {
         layoutImage={project.layoutImage}
         layoutText={project.layoutText}
       />
-      <div className="py-[40px] lg:py-[80px]">
+      <div className="pt-[60px] lg:py-[80px]">
         <MainImage mainImage={project.mainImage} />
       </div>
 

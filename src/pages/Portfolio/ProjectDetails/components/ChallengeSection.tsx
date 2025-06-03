@@ -8,7 +8,7 @@ const ChallengeSection = ({ challengeImage, challengeText, sectionType }: Challe
   const title = sectionType === 'challenge' ? 'Challenge' : 'Challenge';
 
   return (
-    <div className="px-[16px] lg:px-[80px] py-[40px] lg:py-[0px]">
+    <div className="px-[16px] lg:px-[80px] py-[60px] lg:py-[0px]">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-[40px] lg:gap-[149px]">
         <div className="lg:h-[906px]">
           <img
