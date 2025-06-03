@@ -15,7 +15,7 @@ const ProjectInfo = ({
   return (
     <div className="py-[40px] lg:pb-[80px] lg:pt-[123px]">
       <div className="">
-        <h2 className="text-[#000] font-bold text-[16px] lg:text-[60px] mb-[20px] lg:mb-[40px]">
+        <h2 className="text-[#000] font-bold text-[40px] lg:text-[60px] mb-[20px] lg:mb-[40px]">
           Brief
         </h2>
         <div className=" flex flex-col lg:flex-row gap-[40px] lg:gap-[200px]">

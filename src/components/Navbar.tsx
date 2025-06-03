@@ -88,7 +88,7 @@ const Navbar: React.FC = () => {
             <div className="lg:hidden">
               <button
                 onClick={toggleMenu}
-                className="p-2 rounded-md text-[#040323] hover:text-gray-900 hover:bg-gray-100 transition-colors duration-200"
+                className="rounded-md text-[#040323] hover:text-gray-900 hover:bg-gray-100 transition-colors duration-200"
                 aria-label="Toggle menu"
               >
                 {isMenuOpen ? (

@@ -21,7 +21,7 @@ const ProjectDetails = () => {
 
   return (
     <div>
-      <div className="pb-[40px] lg:pb-[0px]">
+      <div className="lg:pb-[0px]">
         <Hero
           projectName={project.projectName}
           description={project.description}

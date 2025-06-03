@@ -1,7 +1,7 @@
 export default function ClientPhilosophyComponent() {
   return (
     <div className="py-16 px-[16px] border-b lg:px-[10%]">
-      <div className="max-w-[1440px] mx-auto">
+      <div className="">
         <div className="flex flex-col lg:flex-row items-end gap-[20px] lg:gap-[53px]">
           {/* Left Content */}
           <div className="w-full lg:w-[65%] flex flex-col justify-center">
@@ -21,7 +21,7 @@ export default function ClientPhilosophyComponent() {
           </div>
 
           {/* Right Image */}
-          <div className="w-full lg:w-[35%]">
+          <div className="w-full lg:w-[365px]">
             <div className="bg-gray-100 overflow-hidden h-auto lg:h-[389px]">
               <img
                 src="/images/about/philosophy.png"
