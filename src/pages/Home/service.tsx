@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const ServicesComponent: React.FC = () => {
   return (
-    <div className="bg-[#FDFCF6] border-b-[1px] border-[#0000001A] py-[40px] px-[16px] lg:py-[80px] lg:px-[80px]">
+    <div className="border-b-[1px] border-[#0000001A] py-[40px] px-[16px] lg:py-[80px] lg:px-[80px]">
       <div className="">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 lg:gap-0">
           {/* Left Column - Title and View All */}
