@@ -2,6 +2,9 @@ import HeroSection from "./hero";
 import Design from "./design";
 import Vision from "./vision";
 import Philosophy from "./philosophy";
+import ProcessSection from "./process";
+import TransformSection from "../Home/transform";
+import ApproachSection from "./approach";
 
 const AboutPage = () => {
   return (
@@ -10,7 +13,9 @@ const AboutPage = () => {
       <Design />
       <Vision />
       <Philosophy />
-      {/* Additional sections can be added here */}
+      <ProcessSection />
+      <ApproachSection />
+      <TransformSection />
     </div>
   );
 };

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const Navbar: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -35,7 +35,7 @@ const Navbar: React.FC = () => {
     <>
       <nav
         className={`border-b border-[#0403231A] bg-[#FDFCF6] transform transition-all duration-500 ease-in-out w-full ${
-          isScrolled ? "fixed top-0 left-0 right-0 z-50 translate-y-0" : "relative -translate-y-1"
+          isScrolled ? "fixed max-w-[1800px] mx-auto top-0 left-0 right-0 z-50 translate-y-0" : "relative -translate-y-1"
         }`}
       >
         <div className="px-4 lg:px-[80px]">
@@ -58,30 +58,46 @@ const Navbar: React.FC = () => {
 
             {/* Desktop Navigation Links - Right */}
             <div className="hidden lg:flex md:text-[18px] items-center space-x-8 md:space-x-[40px]">
-              <Link
+              <NavLink
                 to="/about"
-                className="text-[#040323] hover:text-gray-900 transition-colors duration-200 font-semibold"
+                className={({ isActive }) =>
+                  `transition-colors duration-200 font-semibold ${
+                    isActive ? 'text-[#ECAF21]' : 'text-[#040323] hover:text-gray-900'
+                  }`
+                }
               >
                 About Us
-              </Link>
-              <Link
+              </NavLink>
+              <NavLink
                 to="/services"
-                className="text-[#040323] hover:text-gray-900 transition-colors duration-200 font-semibold"
+                className={({ isActive }) =>
+                  `transition-colors duration-200 font-semibold ${
+                    isActive ? 'text-[#ECAF21]' : 'text-[#040323] hover:text-gray-900'
+                  }`
+                }
               >
                 Services
-              </Link>
-              <Link
+              </NavLink>
+              <NavLink
                 to="/portfolio"
-                className="text-[#040323] hover:text-gray-900 transition-colors duration-200 font-semibold"
+                className={({ isActive }) =>
+                  `transition-colors duration-200 font-semibold ${
+                    isActive ? 'text-[#ECAF21]' : 'text-[#040323] hover:text-gray-900'
+                  }`
+                }
               >
                 Portfolio
-              </Link>
-              <Link
+              </NavLink>
+              <NavLink
                 to="/contact"
-                className="text-[#040323] hover:text-gray-900 transition-colors duration-200 font-semibold"
+                className={({ isActive }) =>
+                  `transition-colors duration-200 font-semibold ${
+                    isActive ? 'text-[#ECAF21]' : 'text-[#040323] hover:text-gray-900'
+                  }`
+                }
               >
                 Contact Us
-              </Link>
+              </NavLink>
             </div>
 
             {/* Mobile menu button */}
@@ -121,34 +137,51 @@ const Navbar: React.FC = () => {
               </div>
             </div>
 
-            <Link
+            {/* Mobile Navigation Menu Links */}
+            <NavLink
               to="/about"
-              className="block text-[#040323] hover:text-gray-900 transition-colors duration-200 font-semibold py-2 border-b border-gray-100"
+              className={({ isActive }) =>
+                `block transition-colors duration-200 font-semibold py-2 border-b border-gray-100 ${
+                  isActive ? 'text-[#ECAF21]' : 'text-[#040323] hover:text-gray-900'
+                }`
+              }
               onClick={() => setIsMenuOpen(false)}
             >
               About Us
-            </Link>
-            <Link
+            </NavLink>
+            <NavLink
               to="/services"
-              className="block text-[#040323] hover:text-gray-900 transition-colors duration-200 font-semibold py-2 border-b border-gray-100"
+              className={({ isActive }) =>
+                `block transition-colors duration-200 font-semibold py-2 border-b border-gray-100 ${
+                  isActive ? 'text-[#ECAF21]' : 'text-[#040323] hover:text-gray-900'
+                }`
+              }
               onClick={() => setIsMenuOpen(false)}
             >
               Services
-            </Link>
-            <Link
+            </NavLink>
+            <NavLink
               to="/portfolio"
-              className="block text-[#040323] hover:text-gray-900 transition-colors duration-200 font-semibold py-2 border-b border-gray-100"
+              className={({ isActive }) =>
+                `block transition-colors duration-200 font-semibold py-2 border-b border-gray-100 ${
+                  isActive ? 'text-[#ECAF21]' : 'text-[#040323] hover:text-gray-900'
+                }`
+              }
               onClick={() => setIsMenuOpen(false)}
             >
               Portfolio
-            </Link>
-            <Link
+            </NavLink>
+            <NavLink
               to="/contact"
-              className="block text-[#040323] hover:text-gray-900 transition-colors duration-200 font-semibold py-2"
+              className={({ isActive }) =>
+                `block transition-colors duration-200 font-semibold py-2 ${
+                  isActive ? 'text-[#ECAF21]' : 'text-[#040323] hover:text-gray-900'
+                }`
+              }
               onClick={() => setIsMenuOpen(false)}
             >
               Contact Us
-            </Link>
+            </NavLink>
           </div>
         </div>
       )}

@@ -5,14 +5,13 @@ export default function VisionMissionComponent() {
         {/* Vision Section */}
         <div className="flex flex-col md:flex-row lg:flex-row items-center gap-12 lg:gap-[39px] mb-10
           lg:mb-[-240px]
-          lg:ml-[430px]
-          min-[1366px]:ml-[420px]
-          min-[1517px]:ml-[555px]
-          min-[1707px]:ml-[660px]
-          min-[1821px]:ml-[730px]">
+          min-[1366px]:ml-[440px]
+          min-[1517px]:ml-[570px]
+          min-[1707px]:ml-[680px]
+          min-[1821px]:ml-[750px]">
           {/* Content */}
           <div className="lg:w-[457px] flex flex-col justify-center self-start">
-            <h2 className="text-amber-500 text-lg font-light mb-6 tracking-wide">
+            <h2 className="text-[#ECAF21] text-lg font-bold mb-6 tracking-wide">
               OUR VISION | Designing Legacy Spaces
             </h2>
             <p className="text-gray-800 text-base leading-relaxed lg:text-[20px] lg:leading-[30px]  text-justify font-light">
@@ -44,7 +43,7 @@ export default function VisionMissionComponent() {
           
           {/* Content */}
           <div className="lg:w-[457px] flex flex-col justify-center self-end">
-            <h2 className="text-amber-500 text-lg font-light mb-6 tracking-wide">
+            <h2 className="text-[#ECAF21] text-lg font-bold mb-6 tracking-wide">
               OUR MISSION | Enhancing Lives through Design
             </h2>
             <p className="text-gray-800 text-base leading-relaxed text-justify lg:text-[20px] lg:leading-[30px] font-light">

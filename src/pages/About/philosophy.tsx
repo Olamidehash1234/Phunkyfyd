@@ -1,6 +1,6 @@
 export default function ClientPhilosophyComponent() {
   return (
-    <div className="py-16 px-[16px] border-b lg:px-[10%]">
+    <div className="py-16 px-[16px] lg:pb-[80px] border-b lg:px-[10%]">
       <div className="">
         <div className="flex flex-col lg:flex-row items-end gap-[20px] lg:gap-[53px]">
           {/* Left Content */}
