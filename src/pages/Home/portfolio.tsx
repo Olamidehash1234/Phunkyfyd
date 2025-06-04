@@ -20,10 +20,10 @@ const Portfolio = () => {
   ];
 
   return (
-    <div className="pt-[40px] lg:pt-[80px] lg:mb-[40px] ">
+    <div className="pt-[40px] bg-[#FDFCF6] lg:pt-[80px] lg:mb-[40px] ">
       <div className="">
         {/* Header */}
-        <div className="flex flex-col lg:flex-row justify-between items-center mb-[30px] lg:mb-[60px] px-6 md:px-12 lg:px-[80px]">
+        <div className="flex relative bg-[#FDFCF6] z-20 flex-col lg:flex-row justify-between items-center mb-[30px] lg:mb-[60px] px-6 md:px-12 lg:px-[80px]">
           <h1 className="text-[30px] md:text-6xl lg:text-[60px] font-bold text-gray-900 tracking-wide ">
             OUR PORTFOLIO
           </h1>

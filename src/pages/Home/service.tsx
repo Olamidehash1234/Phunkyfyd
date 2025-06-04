@@ -3,14 +3,22 @@ import { Link } from "react-router-dom";
 
 const ServicesComponent: React.FC = () => {
   return (
-    <div className="border-b-[1px] border-[#0000001A] py-[40px] px-[16px] lg:py-[80px] lg:px-[80px]">
-      <div className="">
+    <div className="relative border-b-[1px] bg-[#FDFCF6] border-[#0000001A] py-[40px] px-[16px] lg:py-[80px] lg:px-[80px] overflow-hidden">
+      <div className="hidden lg:block absolute bottom-[160px] right-[-250px] z-[1]">
+            <img
+              src="/icons/bg-big.svg"
+              alt=""
+              className="opacity-50"
+            />
+          </div>
+      {/* Main Content */}
+      <div className="relative">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 lg:gap-0">
           {/* Left Column - Title and View All */}
-          <div className="lg:col-span-1 flex flex-col">
+          <div className="lg:col-span-1 flex flex-col relative z-0">
             <div>
               <h2 className="lg:pt-[25px] lg:border-t-[0.5px] border-[#04032399] text-[30px] lg:text-[60px] font-bold text-[#040323] leading-tight mb-[10px] lg:mb-[50px] text-center lg:text-left">
-                OUR 
+                OUR
                 <br className="hidden lg:block" />
                 SERVICES
               </h2>
@@ -28,11 +36,28 @@ const ServicesComponent: React.FC = () => {
             </div>
           </div>
 
+          {/* Background Illustration - Positioned between title and grid */}
+          <div className="hidden lg:block absolute left-[-90px] top-[250px] z-[1]">
+            <img
+              src="/icons/bg-big.svg"
+              alt=""
+              className="opacity-50"
+            />
+          </div>
+
           {/* Right Column - Services Grid */}
-          <div className="lg:col-span-2">
+          <div className="lg:col-span-2 bg-[#FDFCF6] relative z-20">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-0">
               {/* Service 1 */}
-              <div className="p-6 border lg:border-l-0 lg:rounded-l-[0px] lg:pt-[40px] lg:pb-[50px] rounded-[10px] lg:pl-[0px] lg:pr-[50px] lg:border-t lg:border-b lg:rounded-br-[30px] lg:rounded-r-[30px] border-[#04032399] border-opacity-60">
+              <div className="p-6 border lg:border-l-0 lg:rounded-l-[0px] lg:pt-[40px] lg:pb-[50px] rounded-[10px] lg:pl-[0px] lg:pr-[50px] lg:border-t lg:border-b lg:rounded-br-[30px] lg:rounded-r-[30px] border-[#04032399] border-opacity-60 relative z-[1]">
+                {/* Background for first card */}
+                <div className="hidden lg:block absolute right-[-200px] top-[43px] z-[2]">
+                  <img
+                    src="/icons/bg-big.svg"
+                    alt=""
+                    className="opacity-50"
+                  />
+                </div>
                 <div className="mb-[20px]">
                   <div className="w-12 h-12 rounded-lg flex items-center justify-center">
                     <img src="/icons/home/package.svg" alt="" />
@@ -50,7 +75,7 @@ const ServicesComponent: React.FC = () => {
               </div>
 
               {/* Service 2 */}
-              <div className="p-6 border sm:p-8 lg:border-t lg:border-l lg:border-b rounded-[10px] lg:border-l-0 lg:border-r-0 lg:rounded-r-[0] lg:rounded-l-[30px] border-[#04032399] lg:pl-[50px] lg:pr-[50px] lg:pt-[40px]  border-opacity-60">
+              <div className="p-6 border z-[3] bg-[#FDFCF6] sm:p-8 lg:border-t lg:border-l lg:border-b rounded-[10px] lg:border-l-0 lg:border-r-0 lg:rounded-r-[0] lg:rounded-l-[30px] border-[#04032399] lg:pl-[50px] lg:pr-[50px] lg:pt-[40px]  border-opacity-60">
                 <div className="mb-[20px]">
                   <div className="w-12 h-12 rounded-lg flex items-center justify-center">
                     <img src="/icons/home/package.svg" alt="" />
@@ -68,7 +93,7 @@ const ServicesComponent: React.FC = () => {
               </div>
 
               {/* Service 3 */}
-              <div className="p-6 border lg:border-l-0 lg:rounded-l-[0px] lg:pt-[40px] lg:pb-[50px] rounded-[10px] lg:pl-[0px] lg:pr-[50px] lg:border-t-0 lg:border-b lg:rounded-br-[30px] lg:rounded-r-[30px] border-[#04032399] border-opacity-60">
+              <div className="p-6 border z-[3] bg-[#FDFCF6] lg:border-l-0 lg:rounded-l-[0px] lg:pt-[40px] lg:pb-[50px] rounded-[10px] lg:pl-[0px] lg:pr-[50px] lg:border-t-0 lg:border-b lg:rounded-br-[30px] lg:rounded-r-[30px] border-[#04032399] border-opacity-60">
                 <div className="mb-6">
                   <div className="w-12 h-12 rounded-lg flex items-center justify-center">
                     <img src="/icons/home/package.svg" alt="" />
@@ -86,7 +111,7 @@ const ServicesComponent: React.FC = () => {
               </div>
 
               {/* Service 4 */}
-              <div className="p-6 border sm:p-8 lg:border-t lg:border-l lg:border-b rounded-[10px] lg:border-l-0 lg:border-r-0 lg:rounded-r-[0] lg:rounded-l-[30px] border-[#04032399] lg:pl-[50px] lg:pr-[40px] lg:pt-[40px]  border-opacity-60">
+              <div className="p-6 border z-[3] bg-[#FDFCF6] sm:p-8 lg:border-t lg:border-l lg:border-b rounded-[10px] lg:border-l-0 lg:border-r-0 lg:rounded-r-[0] lg:rounded-l-[30px] border-[#04032399] lg:pl-[50px] lg:pr-[40px] lg:pt-[40px]  border-opacity-60">
                 <div className="mb-[20px]">
                   <div className="w-12 h-12 rounded-lg flex items-center justify-center">
                     <img src="/icons/home/package.svg" alt="" />

@@ -50,7 +50,7 @@ const ApproachSection: React.FC = () => {
       <div className="hidden lg:block w-[1px] h-[80px] mx-auto bg-[#04032333] mb-[40px]"></div>
 
       {/* Header - Aligned with right content */}
-      <div className="lg:w-1/2 text-center lg:ml-auto lg:pl-[0px] mb-[40px] lg:mb-[40px]">
+      <div className="lg:w-1/2 text-center lg:text-left lg:ml-auto lg:pl-[0px] mb-[40px] lg:mb-[40px]">
         <h2 className="text-[24px] lg:text-[32px] font-bold text-[#040323] mb-[10px] lg:leading-[42px] leading-[30px]">
           THE PHUNKIFYD APPROACH
         </h2>
