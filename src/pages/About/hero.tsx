@@ -1,6 +1,13 @@
 export default function HeroSection() {
   return (
     <section className="relative w-full overflow-hidden px-4 sm:px-6 lg:px-[80px] pt-[40px] lg:pt-[80px] lg:pb-[0px]">
+      <div className="hidden lg:block absolute left-[500px] top-[-1px] z-[1]">
+        <img
+          src="/icons/about/bg.svg"
+          alt=""
+          className="opacity-50"
+        />
+      </div>
       <div className=" border-b border-[#04032333] lg:pb-[60px] pb-[40px]">
         {/* Top Text */}
         <h1 className="text-3xl lg:text-[96px] font-bold text-left lg:leading-[100px]">

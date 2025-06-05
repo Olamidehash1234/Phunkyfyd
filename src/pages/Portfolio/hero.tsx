@@ -9,6 +9,14 @@ const PortfolioHeroComponent: React.FC = () => {
   };
 
   return (
+    <div>
+    <div className="hidden lg:block absolute left-[500px] top-[80px] z-[2]">
+        <img
+          src="/icons/about/bg.svg"
+          alt=""
+          className="opacity-0"
+        />
+      </div>
     <div className="mx-[16px] my-[40px] lg:my-[80px] lg:mx-[80px]  relative h-[300px] lg:h-[551px]">
       {/* Background Image */}
       <div className="absolute inset-0">
@@ -43,6 +51,7 @@ const PortfolioHeroComponent: React.FC = () => {
           </a>
         </div>
       </div>
+    </div>
     </div>
   );
 };

@@ -2,13 +2,20 @@ import React from "react";
 
 const OurDesignSolutions: React.FC = () => {
   return (
-    <section className="w-full py-10 lg:pt-[80px] lg:pb-[0px] px-4 lg:px-[80px]">
+    <section className="w-full overflow-hidden py-10 lg:pt-[80px] lg:pb-[0px] px-4 lg:px-[80px]">
+      <div className="hidden lg:block absolute left-[500px] top-[70px] z-[1]">
+        <img
+          src="/icons/about/bg.svg"
+          alt=""
+          className="opacity-50"
+        />
+      </div>
       <div
         className="max-w-8xl h-auto lg:h-[573px] mx-auto flex flex-col lg:flex-row gap-6 items-start"
         // style={{ height: "573px" }}
       >
         {/* Left Video - 60% width */}
-        <div className="w-full lg:w-[60%] h-[300px] lg:h-full">
+        <div className="w-full lg:w-[60%] z-[1] h-[300px] lg:h-full">
           <video
             src="/video/design1.mp4"
             autoPlay

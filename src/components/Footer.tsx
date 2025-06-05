@@ -2,8 +2,26 @@ import { Link } from 'react-router-dom';
 
 const Footer: React.FC = () => {
   return (
-    <footer className=" py-[40px] px-4 lg:px-[80px] lg:pt-[80px] lg:pb-[20px]">
-      <div className="flex flex-col border-t-[1px] border-[#04032380] pt-[40px] lg:pt-[60px] lg:flex-row justify-between items-start gap-8">
+    <footer className="relative bg-[#FDFCF6] py-[40px] mx-4 lg:mx-[80px] lg:mt-[80px] lg:pt-[0px] lg:pb-[20px] overflow-hidden">
+      {/* Left Background Illustration */}
+      <div className="hidden lg:block absolute left-[90px] top-[2px] z-[1]">
+        <img
+          src="/icons/footer/bg.svg"
+          alt=""
+          className="opacity-50"
+        />
+      </div>
+
+      {/* Right Background Illustration */}
+      <div className="hidden lg:block absolute left-[700px] top-[-100px] z-[1]">
+        <img
+          src="/icons/footer/bg-r.svg"
+          alt=""
+          className="opacity-50"
+        />
+      </div>
+
+      <div className="flex flex-col border-t-[1px] border-[#04032380] pt-[40px] lg:pt-[60px] lg:flex-row justify-between items-start gap-8 relative z-[2]">
         {/* Left Section */}
         <div className="flex flex-col lg:flex-row gap-6 lg:gap-[40px] max-w-[470px]">
           <img

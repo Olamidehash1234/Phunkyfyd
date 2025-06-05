@@ -126,7 +126,7 @@ const PortfolioGallery = () => {
     : portfolioItems.filter(item => item.category === activeTab);
 
   return (
-    <div id="portfolio-filter" className="w-full px-[16px] pb-[40px] lg:px-[80px] lg:pb-[0px]">
+    <div id="portfolio-filter" className="overflow-hidden w-full px-[16px] pb-[40px] lg:px-[80px] lg:pb-[0px]">
       {/* Navigation Tabs */}
       <div className="flex flex-wrap gap-8 gap-y-[10px] lg:gap-[50px] mb-8 lg:mb-[20px]">
         {tabs.map((tab) => (
@@ -143,6 +143,22 @@ const PortfolioGallery = () => {
           </button>
         ))}
       </div>
+
+      <div className="hidden lg:block absolute left-[700px] top-[900px] z-[1]">
+        <img
+          src="/icons/portfolio/bg.svg"
+          alt=""
+          className="opacity-50"
+        />
+      </div>
+
+      {/* <div className="hidden lg:block absolute left-[700px] top-[1500px] z-[1]">
+        <img
+          src="/icons/portfolio/bg.svg"
+          alt=""
+          className="opacity-50"
+        />
+      </div> */}
 
       {/* Image Grid */}
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 lg:gap-[13px]">

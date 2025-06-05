@@ -24,6 +24,13 @@ const ContactComponent = () => {
 
   return (
     <div className="w-full px-[16px] lg:px-[80px] py-[40px] lg:pt-[80px]">
+      <div className="hidden lg:block absolute left-[500px] top-[70px] z-[1]">
+        <img
+          src="/icons/about/bg.svg"
+          alt=""
+          className="opacity-50"
+        />
+      </div>
       <div className="grid grid-cols-1 lg:grid-cols-3 min-h-[640px]">
         {/* Left Section - Contact Form */}
         <div className="lg:col-span-1 p-[10px] lg:pr-[20px] lg:pl-[0px] lg:pt-[0px] flex flex-col">
@@ -152,7 +159,7 @@ const ContactComponent = () => {
         </div>
 
         {/* Right Section - Image */}
-        <div className="lg:col-span-1 relative h-[450px] lg:h-auto">
+        <div className="lg:col-span-1 z-[1] relative h-[450px] lg:h-auto">
           <div className="absolute inset-0">
             <img
               src="/images/contact/img1.png"

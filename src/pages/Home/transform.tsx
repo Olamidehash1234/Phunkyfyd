@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const TransformSection: React.FC = () => {
   return (
-    <div className="py-0 px-[16px] sm:px-6 lg:pt-[80px] lg:px-[80px] lg:pb-[0px]">
+    <div className="py-0 px-[16px] bg-[#FDFCF6] sm:px-6 lg:mt-[80px] lg:px-[80px] lg:pb-[0px]">
       <div className="">
         <div className="flex flex-col items-center text-center">
           <h2 className="text-[20px] md:text-[50px] lg:text-[60px] font-bold leading-tight mb-6 lg:mb-[20px]">
