@@ -21,7 +21,7 @@ const PortfolioHeroComponent: React.FC = () => {
       {/* Background Image */}
       <div className="absolute inset-0">
         <img 
-          src="/images/service/design.png"
+          src="https://res.cloudinary.com/drbxjaxya/image/upload/v1749205912/design_pdqaeg.png"
           alt="Luxury bedroom interior"
           className="w-full h-full object-cover"
         />

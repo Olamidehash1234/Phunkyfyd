@@ -24,7 +24,7 @@ export default function ClientPhilosophyComponent() {
           <div className="w-full lg:w-[365px]">
             <div className="bg-gray-100 overflow-hidden h-auto lg:h-[389px]">
               <img
-                src="/images/about/philosophy.png"
+                src="https://res.cloudinary.com/drbxjaxya/image/upload/v1749204597/philosophy_ulguqa.png"
                 alt="Philosophy"
                 className="w-full h-full object-cover"
               />

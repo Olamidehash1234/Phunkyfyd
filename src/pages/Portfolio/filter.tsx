@@ -8,112 +8,112 @@ const PortfolioGallery = () => {
     {
       id: 1,
       category: 'Residential',
-      image: '/images/portfolio/img1.png',
+      image: 'https://res.cloudinary.com/drbxjaxya/image/upload/v1749201538/img1_svcgo0.png',
       alt: 'Modern bedroom interior',
       projectName: 'Zaya and Ryan'
     },
     {
       id: 2,
       category: 'Residential',
-      image: '/images/portfolio/img2.png',
+      image: 'https://res.cloudinary.com/drbxjaxya/image/upload/v1749201541/img2_olypoh.png',
       alt: 'Bathroom with wooden accents',
       projectName: 'Zaya and Ryan'
     },
     {
       id: 3,
       category: 'Commercial Space',
-      image: '/images/portfolio/img8.png',
+      image: 'https://res.cloudinary.com/drbxjaxya/image/upload/v1749201558/img8_pn4iot.png',
       alt: 'Modern office layout',
       projectName: 'Zaya and Ryan'
     },
     {
       id: 4,
       category: 'Decor/Furniture Store',
-      image: '/images/portfolio/img3.png',
+      image: 'https://res.cloudinary.com/drbxjaxya/image/upload/v1749201553/img3_amthhv.png',
       alt: 'Modern staircase with decor',
       projectName: 'Zaya and Ryan'
     },
     {
       id: 5,
       category: 'Commercial Space',
-      image: '/images/portfolio/img4.png',
+      image: 'https://res.cloudinary.com/drbxjaxya/image/upload/v1749201548/img4_ess5oq.png',
       alt: 'Modern office space',
       projectName: 'Zaya and Ryan'
     },
     {
       id: 6,
       category: 'Commercial Space',
-      image: '/images/portfolio/img5.png',
+      image: 'https://res.cloudinary.com/drbxjaxya/image/upload/v1749201551/img5_h3sm0q.png',
       alt: 'Contemporary office interior',
       projectName: 'Zaya and Ryan'
     },
     {
       id: 7,
       category: 'Decor/Furniture Store',
-      image: '/images/portfolio/img6.png',
+      image: 'https://res.cloudinary.com/drbxjaxya/image/upload/v1749201552/img6_dhyafg.png',
       alt: 'Autumn decor display',
       projectName: 'Zaya and Ryan'
     },
     {
       id: 8,
       category: 'Decor/Furniture Store',
-      image: '/images/portfolio/img7.png',
+      image: 'https://res.cloudinary.com/drbxjaxya/image/upload/v1749201557/img7_a9e4wy.png',
       alt: 'Elegant interior showroom',
       projectName: 'Zaya and Ryan'
     },
     {
       id: 9,
       category: 'Residential',
-      image: '/images/portfolio/img1.png',
+      image: 'https://res.cloudinary.com/drbxjaxya/image/upload/v1749201538/img1_svcgo0.png',
       alt: 'Luxury apartment design',
       projectName: 'Zaya and Ryan'
     },
     {
       id: 10,
       category: 'Commercial Space',
-      image: '/images/portfolio/img1.png',
+      image: 'https://res.cloudinary.com/drbxjaxya/image/upload/v1749201538/img1_svcgo0.png',
       alt: 'Restaurant interior',
       projectName: 'Zaya and Ryan'
     },
     {
       id: 11,
       category: 'Decor/Furniture Store',
-      image: '/images/portfolio/img1.png',
+      image: 'https://res.cloudinary.com/drbxjaxya/image/upload/v1749201538/img1_svcgo0.png',
       alt: 'Furniture showcase',
       projectName: 'Zaya and Ryan'
     },
     {
       id: 12,
       category: 'Residential',
-      image: '/images/portfolio/img1.png',
+      image: 'https://res.cloudinary.com/drbxjaxya/image/upload/v1749201538/img1_svcgo0.png',
       alt: 'Villa interior',
       projectName: 'Zaya and Ryan'
     },
     {
       id: 13,
       category: 'Commercial Space',
-      image: '/images/portfolio/img1.png',
+      image: 'https://res.cloudinary.com/drbxjaxya/image/upload/v1749201538/img1_svcgo0.png',
       alt: 'Hotel lobby',
       projectName: 'Zaya and Ryan'
     },
     {
       id: 14,
       category: 'Decor/Furniture Store',
-      image: '/images/portfolio/img1.png',
+      image: 'https://res.cloudinary.com/drbxjaxya/image/upload/v1749201538/img1_svcgo0.png',
       alt: 'Lifestyle store display',
       projectName: 'Zaya and Ryan'
     },
     {
       id: 15,
       category: 'Residential',
-      image: '/images/portfolio/img1.png',
+      image: 'https://res.cloudinary.com/drbxjaxya/image/upload/v1749201538/img1_svcgo0.png',
       alt: 'Modern home design',
       projectName: 'Zaya and Ryan'
     },
     {
       id: 16,
       category: 'Commercial Space',
-      image: '/images/portfolio/img1.png',
+      image: 'https://res.cloudinary.com/drbxjaxya/image/upload/v1749201538/img1_svcgo0.png',
       alt: 'Retail space design',
       projectName: 'Zaya and Ryan'
     },

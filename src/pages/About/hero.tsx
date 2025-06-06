@@ -18,7 +18,7 @@ export default function HeroSection() {
         {/* Image */}
         <div className="mt-6 lg:mt-[20px] relative">
           <video
-            src="/video/vid.mp4"
+            src="https://res.cloudinary.com/drbxjaxya/video/upload/v1749198626/vid_oi1lke.mp4"
             autoPlay
             loop
             muted

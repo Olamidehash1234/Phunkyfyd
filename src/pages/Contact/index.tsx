@@ -162,7 +162,7 @@ const ContactComponent = () => {
         <div className="lg:col-span-1 z-[1] relative h-[450px] lg:h-auto">
           <div className="absolute inset-0">
             <img
-              src="/images/contact/img1.png"
+              src="https://res.cloudinary.com/drbxjaxya/image/upload/v1749200726/img1_tbvuze.png"
               alt="Luxury interior design with golden accents and modern fixtures"
               className="w-full h-full object-cover"
             />

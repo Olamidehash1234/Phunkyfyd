@@ -30,7 +30,7 @@ export default function VisionMissionComponent() {
           {/* Right Image */}
           <div className="lg:w-[259px] relative z-[2]">
             <div className="bg-gray-100 rounded-lg overflow-hidden h-auto lg:h-[389px]">
-              <img src="/images/about/vision.png" alt="" />
+              <img src="https://res.cloudinary.com/drbxjaxya/image/upload/v1749200600/vision_mf0qgd.png" alt="" />
             </div>
           </div>
         </div>
@@ -53,7 +53,7 @@ export default function VisionMissionComponent() {
           {/* Left Image */}
           <div className="lg:w-[259px] relative z-[2]">
             <div className="bg-gray-100 rounded-lg overflow-hidden h-auto lg:h-[389px]">
-              <img src="/images/about/mission.png" alt="" />
+              <img src="https://res.cloudinary.com/drbxjaxya/image/upload/v1749204593/mission_ivlquj.png" alt="" />
             </div>
           </div>
           

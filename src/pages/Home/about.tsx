@@ -9,14 +9,14 @@ const AboutSection: React.FC = () => {
         <div className="w-full lg:w-[55%] flex lg:flex-row lg:gap-[10px] gap-[10px] lg:items-end">
           <div className="w-full lg:h-[400px] lg:self-start">
             <img
-              src="/images/home/img1.png"
+              src="https://res.cloudinary.com/drbxjaxya/image/upload/v1749200921/img1_jrh5yy.png"
               alt="Interior design showcase"
               className="w-full h-auto lg:h-full object-cover"
             />
           </div>
           <div className="w-full lg:h-[250px] self-end">
             <img
-              src="/images/home/img2.png"
+              src="https://res.cloudinary.com/drbxjaxya/image/upload/v1749200918/img2_sjlfh2.png"
               alt="Interior design showcase"
               className="w-full h-auto lg:h-full object-cover"
             />

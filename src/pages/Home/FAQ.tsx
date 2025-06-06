@@ -44,12 +44,12 @@ const FAQSection = () => {
             <div className="grid grid-cols-2 sm:grid-cols-2 gap-4 lg:gap-[10px]">
               {/* First Image */}
               <div className="bg-gray-100 rounded-[2px] overflow-hidden h-[300px] lg:h-[400px]">
-                <img src="/images/home/faq1.png" alt="" className='w-full h-full object-cover' />
+                <img src="https://res.cloudinary.com/drbxjaxya/image/upload/v1749200917/faq1_zzacz1.png" alt="" className='w-full h-full object-cover' />
               </div>
               
               {/* Second Image */}
               <div className="bg-gray-100 rounded-[2px] overflow-hidden h-[300px] lg:h-[400px]">
-                <img src="/images/home/faq2.png" alt="" className='w-full h-full object-cover' />
+                <img src="https://res.cloudinary.com/drbxjaxya/image/upload/v1749200909/faq2_i7chh5.png" alt="" className='w-full h-full object-cover' />
               </div>
             </div>
           </div>

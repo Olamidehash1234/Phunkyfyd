@@ -4,17 +4,17 @@ const Portfolio = () => {
   const portfolioImages = [
     {
       id: 1,
-      src: "/images/home/prt-img1.png",
+      src: "https://res.cloudinary.com/drbxjaxya/image/upload/v1749200914/prt-img1_nwhc1s.png",
       alt: "Modern restaurant interior with warm lighting",
     },
     {
       id: 2,
-      src: "/images/home/prt-img2.png",
+      src: "https://res.cloudinary.com/drbxjaxya/image/upload/v1749200914/prt-img2_fdc0r8.png",
       alt: "Elegant wall sconces and decor",
     },
     {
       id: 3,
-      src: "/images/home/prt-img3.png",
+      src: "https://res.cloudinary.com/drbxjaxya/image/upload/v1749200924/prt-img3_ajtjqx.png",
       alt: "Luxury living room with neutral tones",
     },
   ];
