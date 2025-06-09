@@ -9,7 +9,8 @@ export default defineConfig({
     terserOptions: {
       compress: {
         drop_console: true,
-        drop_debugger: true
+        drop_debugger: true,
+        pure_funcs: ['console.log']
       }
     },
     // Configure chunking
@@ -18,10 +19,12 @@ export default defineConfig({
         manualChunks: {
           'vendor': ['react', 'react-dom', 'react-router-dom'],
           'ui': ['lucide-react']
-        }
+        },
+        compact: true
       }
     },
     // Reduce chunk size
-    chunkSizeWarningLimit: 1000
+    chunkSizeWarningLimit: 1000,
+    sourcemap: false
   }
 })
