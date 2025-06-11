@@ -15,58 +15,65 @@ const PortfolioGallery = () => {
     {
       id: 2,
       category: 'Residential',
-      image: 'https://res.cloudinary.com/drbxjaxya/image/upload/v1749201558/img8_pn4iot.png',
+      image: 'https://res.cloudinary.com/drbxjaxya/image/upload/v1749552432/IMG_9008_onsoto.jpg',
       alt: 'Modern office layout',
-      projectName: 'Project BJ'
+      projectName: 'Project BeeJay'
     },
     {
       id: 3,
       category: 'Commercial Space',
-      image: 'https://res.cloudinary.com/drbxjaxya/image/upload/v1749201538/img1_svcgo0.png',
+      image: 'https://res.cloudinary.com/drbxjaxya/image/upload/v1749552795/IMG_8969_gyrwsp.jpg',
       alt: 'Modern bedroom interior',
       projectName: 'Project Bisuga'
     },
     {
       id: 4,
       category: 'Cooperate',
-      image: 'https://res.cloudinary.com/drbxjaxya/image/upload/v1749201553/img3_amthhv.png',
+      image: 'https://res.cloudinary.com/drbxjaxya/image/upload/v1749553241/IMG_8991_gbplfp.jpg',
       alt: 'Modern staircase with decor',
       projectName: 'Bukenzo'
     },
     {
       id: 5,
       category: 'Commercial Space',
-      image: 'https://res.cloudinary.com/drbxjaxya/image/upload/v1749201548/img4_ess5oq.png',
+      image: 'https://res.cloudinary.com/drbxjaxya/image/upload/v1749554411/IMG_9053_ofozox.jpg',
       alt: 'Modern office space',
       projectName: 'Project Jenny’s glow'
     },
     {
       id: 6,
       category: 'Commercial Space',
-      image: 'https://res.cloudinary.com/drbxjaxya/image/upload/v1749201551/img5_h3sm0q.png',
+      image: 'https://res.cloudinary.com/drbxjaxya/image/upload/v1749555665/IMG_9041_gglzqm.jpg',
       alt: 'Contemporary office interior',
       projectName: 'Project Jenny’s glow(Ghana)'
     },
     {
       id: 7,
       category: 'Commercial Space',
-      image: 'https://res.cloudinary.com/drbxjaxya/image/upload/v1749201552/img6_dhyafg.png',
+      image: 'https://res.cloudinary.com/drbxjaxya/image/upload/v1749556296/IMG_9021_rtv98p.jpg',
       alt: 'Autumn decor display',
       projectName: 'Project Mav'
     },
     {
       id: 8,
       category: 'Commercial Space',
-      image: 'https://res.cloudinary.com/drbxjaxya/image/upload/v1749201557/img7_a9e4wy.png',
+      image: 'https://res.cloudinary.com/drbxjaxya/image/upload/v1749556822/IMG_8986_b1eyz2.jpg',
       alt: 'Elegant interior showroom',
       projectName: 'Project Ruby'
     },
     {
       id: 9,
       category: 'Commercial Space',
-      image: 'https://res.cloudinary.com/drbxjaxya/image/upload/v1749201538/img1_svcgo0.png',
+      image: 'https://res.cloudinary.com/drbxjaxya/image/upload/v1749582297/IMG_9035_bpk7t0.jpg',
       alt: 'Luxury apartment design',
       projectName: 'Project Skin Therapy'
+    },
+    {
+      id: 10,
+      category: 'Commercial Space',
+      image: 'https://res.cloudinary.com/drbxjaxya/image/upload/v1749582801/IMG_9043_pd32mw.jpg',
+      alt: 'Luxury apartment design',
+      projectName: 'Project Slush Cafe'
     },
   ];
 
@@ -119,7 +126,7 @@ const PortfolioGallery = () => {
               />
             </div>
             <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-50 transition-all duration-300">
-              <span className="absolute text-[20px] bottom-4 left-4 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 lg:text-[26px] font-semibold">
+              <span className="absolute text-[20px] bottom-4 left-4 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 lg:text-[24px] font-semibold">
                 {item.projectName}
               </span>
             </div>

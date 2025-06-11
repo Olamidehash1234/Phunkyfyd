@@ -1,7 +1,7 @@
 import { useParams } from "react-router-dom";
 import { portfolioData } from "../data";
 import Hero from "./components/Hero";
-import ProjectInfo from "./components/ProjectInfo";
+// import ProjectInfo from "./components/ProjectInfo";
 // import LayoutSection from "./components/LayoutSection";
 // import MainImage from "./components/MainImage";
 // import ChallengeSection from "./components/ChallengeSection";
@@ -24,11 +24,12 @@ const ProjectDetails = () => {
       <div className="lg:pb-[0px]">
         <Hero
           projectName={project.projectName}
+          description={project.description || ""}
           image={project.image}
         />
       </div>
 
-      <div className="px-[16px] lg:px-[18%]">
+      {/* <div className="px-[16px] lg:px-[18%]">
         <div className="mx-auto lg:max-w-[1600px]">
           <ProjectInfo
             brief={project.brief}
@@ -36,7 +37,7 @@ const ProjectDetails = () => {
             year={project.year}
           />
         </div>
-      </div>
+      </div> */}
 {/* 
       <LayoutSection
         layoutImage={project.layoutImage}
