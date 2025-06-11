@@ -2,12 +2,12 @@ import { useParams } from "react-router-dom";
 import { portfolioData } from "../data";
 import Hero from "./components/Hero";
 import ProjectInfo from "./components/ProjectInfo";
-import LayoutSection from "./components/LayoutSection";
-import MainImage from "./components/MainImage";
-import ChallengeSection from "./components/ChallengeSection";
-import GridSection from "./components/GridSection";
-import MediaSection from "./components/MediaSection";
-import ImplementationSection from "./components/ImplementationSection";
+// import LayoutSection from "./components/LayoutSection";
+// import MainImage from "./components/MainImage";
+// import ChallengeSection from "./components/ChallengeSection";
+// import GridSection from "./components/GridSection";
+// import MediaSection from "./components/MediaSection";
+// import ImplementationSection from "./components/ImplementationSection";
 import ShowcaseSection from "./components/ShowcaseSection";
 import Transform from "../../Home/transform";
 
@@ -24,7 +24,6 @@ const ProjectDetails = () => {
       <div className="lg:pb-[0px]">
         <Hero
           projectName={project.projectName}
-          description={project.description}
           image={project.image}
         />
       </div>
@@ -34,39 +33,38 @@ const ProjectDetails = () => {
           <ProjectInfo
             brief={project.brief}
             location={project.location}
-            squareMeters={project.squareMeters}
             year={project.year}
           />
         </div>
       </div>
-
+{/* 
       <LayoutSection
         layoutImage={project.layoutImage}
         layoutText={project.layoutText}
-      />
-      <div className="pt-[60px] lg:py-[80px]">
+      /> */}
+      {/* <div className="pt-[60px] lg:py-[80px]">
         <MainImage mainImage={project.mainImage} />
-      </div>
+      </div> */}
 
-      <ChallengeSection
+      {/* <ChallengeSection
         challengeImage={project.challengeImage}
         challengeText={project.challengeText}
         sectionType="challenge"
-      />
-      <GridSection gridImages={project.gridImages} />
-      <ChallengeSection
+      /> */}
+      {/* <GridSection gridImages={project.gridImages} /> */}
+      {/* <ChallengeSection
         challengeImage={project.conceptImage}
         challengeText={project.conceptText}
         sectionType="concept"
-      />
-      <div className="py-[40px] lg:py-[80px]">
+      /> */}
+      {/* <div className="py-[40px] lg:py-[80px]">
         <MediaSection videoUrl={project.finalVideo} />
-      </div>
-      <ImplementationSection
+      </div> */}
+      {/* <ImplementationSection
         implementationImage={project.implementationImage}
         implementationText={project.implementationText}
         implementationText2={project.implementationText2}
-      />
+      /> */}
       <ShowcaseSection showcaseImages={project.showcaseImages} />
       <Transform />
     </div>

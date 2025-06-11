@@ -34,7 +34,7 @@ const Navbar: React.FC = () => {
   return (
     <>
       <nav
-        className={`border-b border-[#0403231A] bg-[#FDFCF6] transform transition-all duration-500 ease-in-out w-full ${
+        className={`border-b border-[#0403231A] bg-[#FDFCF6] z-50 transform transition-all duration-500 ease-in-out w-full ${
           isScrolled ? "fixed max-w-[1800px] mx-auto top-0 left-0 right-0 z-50 translate-y-0" : "relative -translate-y-1"
         }`}
       >

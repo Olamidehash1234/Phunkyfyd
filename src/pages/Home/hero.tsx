@@ -1,23 +1,23 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 
 const HeroComponent: React.FC = () => {
-  useEffect(() => {
-    const handleResize = () => {
-      console.log('Current window width:', window.innerWidth);
-    };
+  // useEffect(() => {
+  //   const handleResize = () => {
+  //     console.log('Current window width:', window.innerWidth);
+  //   };
 
-    window.addEventListener('resize', handleResize);
-    // Log initial width
-    console.log('Initial window width:', window.innerWidth);
+  //   window.addEventListener('resize', handleResize);
+  //   // Log initial width
+  //   console.log('Initial window width:', window.innerWidth);
 
-    return () => window.removeEventListener('resize', handleResize);
-  }, []);
+  //   return () => window.removeEventListener('resize', handleResize);
+  // }, []);
 
   return (
     <div className="w-full pt-[40px] px-[16px] lg:px-[80px] lg:pt-[80px] lg:pb-[0px]">
         <div className="">
           <h1 className='font-bold text-[#040323]
-            text-[50px] leading-tight lg:leading-[100px] md:text-[78px]
+            text-[50px] leading-tight lg:leading-[100px] md:text-[87px]
             min-[1366px]:text-[89px]
             min-[1517px]:text-[101px]
             min-[1707px]:text-[113px]
@@ -35,14 +35,14 @@ const HeroComponent: React.FC = () => {
 
         <div>
           <h1 className='font-bold text-[#040323]
-            text-[50px] lg:leading-[100px] leading-tight md:text-[77px]
+            text-[50px] lg:leading-[100px] leading-tight md:text-[86px]
             min-[1366px]:text-[89.2px]
             min-[1517px]:text-[101.6px]
             min-[1707px]:text-[113.1px]
             min-[1821px]:text-[121.3px]'>
             FUNCTIONAL.
             <span className="font-medium block sm:inline 
-              text-[20px] lg:leading-[28px] lg:ml-[20px] lg:mr-[20px]
+              text-[16px] lg:leading-[28px] lg:ml-[20px] lg:mr-[20px]
               min-[1366px]:text-[20px]
               min-[1517px]:text-[22px]
               min-[1707px]:text-[28px]

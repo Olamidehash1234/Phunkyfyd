@@ -7,119 +7,70 @@ const PortfolioGallery = () => {
   const portfolioItems = [
     {
       id: 1,
-      category: 'Residential',
-      image: 'https://res.cloudinary.com/drbxjaxya/image/upload/v1749201538/img1_svcgo0.png',
-      alt: 'Modern bedroom interior',
-      projectName: 'Zaya and Ryan'
+      category: 'Commercial Space',
+      image: 'https://res.cloudinary.com/drbxjaxya/image/upload/v1749551915/IMG_9049_sh139f.jpg',
+      alt: 'Bathroom with wooden accents',
+      projectName: 'Project Barrels'
     },
     {
       id: 2,
       category: 'Residential',
-      image: 'https://res.cloudinary.com/drbxjaxya/image/upload/v1749201541/img2_olypoh.png',
-      alt: 'Bathroom with wooden accents',
-      projectName: 'Zaya and Ryan'
+      image: 'https://res.cloudinary.com/drbxjaxya/image/upload/v1749201558/img8_pn4iot.png',
+      alt: 'Modern office layout',
+      projectName: 'Project BJ'
     },
     {
       id: 3,
       category: 'Commercial Space',
-      image: 'https://res.cloudinary.com/drbxjaxya/image/upload/v1749201558/img8_pn4iot.png',
-      alt: 'Modern office layout',
-      projectName: 'Zaya and Ryan'
+      image: 'https://res.cloudinary.com/drbxjaxya/image/upload/v1749201538/img1_svcgo0.png',
+      alt: 'Modern bedroom interior',
+      projectName: 'Project Bisuga'
     },
     {
       id: 4,
-      category: 'Decor/Furniture Store',
+      category: 'Cooperate',
       image: 'https://res.cloudinary.com/drbxjaxya/image/upload/v1749201553/img3_amthhv.png',
       alt: 'Modern staircase with decor',
-      projectName: 'Zaya and Ryan'
+      projectName: 'Bukenzo'
     },
     {
       id: 5,
       category: 'Commercial Space',
       image: 'https://res.cloudinary.com/drbxjaxya/image/upload/v1749201548/img4_ess5oq.png',
       alt: 'Modern office space',
-      projectName: 'Zaya and Ryan'
+      projectName: 'Project Jenny’s glow'
     },
     {
       id: 6,
       category: 'Commercial Space',
       image: 'https://res.cloudinary.com/drbxjaxya/image/upload/v1749201551/img5_h3sm0q.png',
       alt: 'Contemporary office interior',
-      projectName: 'Zaya and Ryan'
+      projectName: 'Project Jenny’s glow(Ghana)'
     },
     {
       id: 7,
-      category: 'Decor/Furniture Store',
+      category: 'Commercial Space',
       image: 'https://res.cloudinary.com/drbxjaxya/image/upload/v1749201552/img6_dhyafg.png',
       alt: 'Autumn decor display',
-      projectName: 'Zaya and Ryan'
+      projectName: 'Project Mav'
     },
     {
       id: 8,
-      category: 'Decor/Furniture Store',
+      category: 'Commercial Space',
       image: 'https://res.cloudinary.com/drbxjaxya/image/upload/v1749201557/img7_a9e4wy.png',
       alt: 'Elegant interior showroom',
-      projectName: 'Zaya and Ryan'
+      projectName: 'Project Ruby'
     },
     {
       id: 9,
-      category: 'Residential',
+      category: 'Commercial Space',
       image: 'https://res.cloudinary.com/drbxjaxya/image/upload/v1749201538/img1_svcgo0.png',
       alt: 'Luxury apartment design',
-      projectName: 'Zaya and Ryan'
-    },
-    {
-      id: 10,
-      category: 'Commercial Space',
-      image: 'https://res.cloudinary.com/drbxjaxya/image/upload/v1749201538/img1_svcgo0.png',
-      alt: 'Restaurant interior',
-      projectName: 'Zaya and Ryan'
-    },
-    {
-      id: 11,
-      category: 'Decor/Furniture Store',
-      image: 'https://res.cloudinary.com/drbxjaxya/image/upload/v1749201538/img1_svcgo0.png',
-      alt: 'Furniture showcase',
-      projectName: 'Zaya and Ryan'
-    },
-    {
-      id: 12,
-      category: 'Residential',
-      image: 'https://res.cloudinary.com/drbxjaxya/image/upload/v1749201538/img1_svcgo0.png',
-      alt: 'Villa interior',
-      projectName: 'Zaya and Ryan'
-    },
-    {
-      id: 13,
-      category: 'Commercial Space',
-      image: 'https://res.cloudinary.com/drbxjaxya/image/upload/v1749201538/img1_svcgo0.png',
-      alt: 'Hotel lobby',
-      projectName: 'Zaya and Ryan'
-    },
-    {
-      id: 14,
-      category: 'Decor/Furniture Store',
-      image: 'https://res.cloudinary.com/drbxjaxya/image/upload/v1749201538/img1_svcgo0.png',
-      alt: 'Lifestyle store display',
-      projectName: 'Zaya and Ryan'
-    },
-    {
-      id: 15,
-      category: 'Residential',
-      image: 'https://res.cloudinary.com/drbxjaxya/image/upload/v1749201538/img1_svcgo0.png',
-      alt: 'Modern home design',
-      projectName: 'Zaya and Ryan'
-    },
-    {
-      id: 16,
-      category: 'Commercial Space',
-      image: 'https://res.cloudinary.com/drbxjaxya/image/upload/v1749201538/img1_svcgo0.png',
-      alt: 'Retail space design',
-      projectName: 'Zaya and Ryan'
+      projectName: 'Project Skin Therapy'
     },
   ];
 
-  const tabs = ['All', 'Residential', 'Commercial Space', 'Decor/Furniture Store'];
+  const tabs = ['All', 'Residential', 'Commercial Space', 'Cooperate'];
 
   const filteredItems = activeTab === 'All' 
     ? portfolioItems 
@@ -151,14 +102,6 @@ const PortfolioGallery = () => {
           className="opacity-50"
         />
       </div>
-
-      {/* <div className="hidden lg:block absolute left-[700px] top-[1500px] z-[1]">
-        <img
-          src="/icons/portfolio/bg.svg"
-          alt=""
-          className="opacity-50"
-        />
-      </div> */}
 
       {/* Image Grid */}
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 lg:gap-[13px]">

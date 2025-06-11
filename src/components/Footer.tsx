@@ -25,7 +25,7 @@ const Footer: React.FC = () => {
         {/* Left Section */}
         <div className="flex flex-col lg:flex-row gap-6 lg:gap-[40px] max-w-[470px]">
           <img
-            src="/icons/home/Logo.svg"
+            src="/Logo.svg"
             alt="Phunkifyd Logo"
             className="w-[80px] lg-w-[124px]"
           />

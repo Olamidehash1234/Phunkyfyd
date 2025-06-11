@@ -1,7 +1,6 @@
 interface ProjectInfoProps {
   brief: string;
   location: string;
-  squareMeters: string;
   year: string;
   //   services: string;
 }
@@ -9,7 +8,6 @@ interface ProjectInfoProps {
 const ProjectInfo = ({
   brief,
   location,
-  squareMeters,
   year,
 }: ProjectInfoProps) => {
   return (
@@ -49,9 +47,6 @@ const ProjectInfo = ({
                 <h3 className="text-[#040323] lg:leading-[16px] text-[14px] lg:text-[14px] font-medium mb-[5px]">
                   Square meters:
                 </h3>
-                <p className="text-[16px] lg:text-[20px] lg:leading-[16px] text-[#040323] font-light">
-                  {squareMeters}
-                </p>
               </div>
             </div>
             <div className="flex items-center gap-[35px]">
