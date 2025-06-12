@@ -4,17 +4,17 @@ const Portfolio = () => {
   const portfolioImages = [
     {
       id: 1,
-      src: "https://res.cloudinary.com/drbxjaxya/image/upload/v1749200914/prt-img1_nwhc1s.png",
+      src: "https://res.cloudinary.com/drbxjaxya/image/upload/v1749551915/IMG_9049_sh139f.jpg",
       alt: "Modern restaurant interior with warm lighting",
     },
     {
       id: 2,
-      src: "https://res.cloudinary.com/drbxjaxya/image/upload/v1749200914/prt-img2_fdc0r8.png",
+      src: "https://res.cloudinary.com/drbxjaxya/image/upload/v1749552432/IMG_9008_onsoto.jpg",
       alt: "Elegant wall sconces and decor",
     },
     {
       id: 3,
-      src: "https://res.cloudinary.com/drbxjaxya/image/upload/v1749200924/prt-img3_ajtjqx.png",
+      src: "https://res.cloudinary.com/drbxjaxya/image/upload/v1749553241/IMG_8991_gbplfp.jpg",
       alt: "Luxury living room with neutral tones",
     },
   ];
@@ -51,7 +51,7 @@ const Portfolio = () => {
               />
               <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-center items-center text-white">
                 <h3 className="text-2xl font-light mb-4 lg:text-[30px] lg:mb-[10px]">
-                  Zaya and Ryan
+                  Project Barrels
                 </h3>
                 <p className="text-lg mb-6 lg:mb-[40px] lg:text-[20px] text-[#fff]">
                   Commercial
@@ -73,7 +73,7 @@ const Portfolio = () => {
               />
               <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-center items-center text-white">
                 <h3 className="text-2xl font-light mb-4 lg:text-[30px] lg:mb-[10px]">
-                  Project Eesha
+                  Project BeeJay
                 </h3>
                 <p className="text-lg mb-6 lg:mb-[40px] lg:text-[20px] text-[#fff]">
                   Residential
@@ -95,10 +95,10 @@ const Portfolio = () => {
               />
               <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-center items-center text-white">
                 <h3 className="text-2xl font-light mb-4 lg:text-[30px] lg:mb-[10px]">
-                  Hand Made Sofa
+                  Bukenzo
                 </h3>
                 <p className="text-lg mb-6 lg:mb-[40px] lg:text-[20px] text-[#fff]">
-                  Decor/Furniture Store
+                  Cooperate
                 </p>
                 <button className="border border-white px-8 lg:px-[60px] py-2 hover:bg-white lg:text-[18px] hover:text-black transition-colors duration-300">
                   View Project
