@@ -60,6 +60,7 @@ export const portfolioData = [
       "https://res.cloudinary.com/drbxjaxya/image/upload/v1749553244/IMG_8996_vzwaoe.jpg",
     alt: "Modern bedroom interior",
     projectName: "Project Bukenzo",
+    description: "Lagos | Ikeja",
     location: "Lagos",
     year: "2024",
     brief:
