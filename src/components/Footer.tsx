@@ -58,10 +58,22 @@ const Footer: React.FC = () => {
             Copyright © 2025 Phunkifyd Interiors. All rights reserved.{" "}
           </p>
           <div className="flex gap-4 lg:gap-[20px]">
-            <img src="/icons/footer/instagram.svg" alt="" className="cursor-pointer" />
-            <img src="/icons/footer/x.svg" alt="" className="cursor-pointer" />
-            <img src="/icons/footer/youtube.svg" alt="" className="cursor-pointer"/>
-            <img src="/icons/footer/linkeldn.svg" alt="" className="cursor-pointer" />
+            <a 
+              href="https://www.instagram.com/phunkifydinteriors?igsh=MWc4YTA0bGJuejE5Yw=="
+              target="_blank"
+              rel="noopener noreferrer"
+              className="cursor-pointer"
+            >
+              <img src="/icons/footer/instagram.png" alt="Instagram" />
+            </a>
+            <a 
+              href="http://wa.me/2348092529183"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="cursor-pointer"
+            >
+              <img src="/icons/footer/whatsapp.png" alt="WhatsApp" />
+            </a>
           </div>
         </div>
       </div>
