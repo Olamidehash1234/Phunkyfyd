@@ -4,12 +4,12 @@ const Portfolio = () => {
   const portfolioImages = [
     {
       id: 1,
-      src: "https://res.cloudinary.com/drbxjaxya/image/upload/v1749551915/IMG_9049_sh139f.jpg",
+      src: "https://res.cloudinary.com/drbxjaxya/image/upload/v1750242115/IMG_6940_q9wcqz.jpg",
       alt: "Modern restaurant interior with warm lighting",
     },
     {
       id: 2,
-      src: "https://res.cloudinary.com/drbxjaxya/image/upload/v1749552432/IMG_9008_onsoto.jpg",
+      src: "https://res.cloudinary.com/drbxjaxya/image/upload/v1750242275/IMG_6941_i16yly.jpg",
       alt: "Elegant wall sconces and decor",
     },
     {
@@ -51,14 +51,16 @@ const Portfolio = () => {
               />
               <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-center items-center text-white">
                 <h3 className="text-2xl font-light mb-4 lg:text-[30px] lg:mb-[10px]">
-                  Project Barrels
+                  Project Zaya and Ryan
                 </h3>
                 <p className="text-lg mb-6 lg:mb-[40px] lg:text-[20px] text-[#fff]">
                   Commercial
                 </p>
-                <button className="border border-white px-8 lg:px-[60px] py-2 hover:bg-white hover:text-black lg:text-[18px] transition-colors duration-300">
-                  View Project
-                </button>
+                <Link to="/portfolio/12">
+                  <button className="border border-white px-8 lg:px-[60px] py-2 hover:bg-white hover:text-black lg:text-[18px] transition-colors duration-300">
+                    View Project
+                  </button>
+                </Link>
               </div>
             </div>
           </div>
@@ -73,14 +75,16 @@ const Portfolio = () => {
               />
               <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-center items-center text-white">
                 <h3 className="text-2xl font-light mb-4 lg:text-[30px] lg:mb-[10px]">
-                  Project BeeJay
+                  Project Eesha VGC
                 </h3>
                 <p className="text-lg mb-6 lg:mb-[40px] lg:text-[20px] text-[#fff]">
                   Residential
                 </p>
-                <button className="border border-white px-8 lg:px-[60px] py-2 hover:bg-white lg:text-[18px] hover:text-black transition-colors duration-300">
-                  View Project
-                </button>
+                <Link to="/portfolio/11">
+                  <button className="border border-white px-8 lg:px-[60px] py-2 hover:bg-white hover:text-black lg:text-[18px] transition-colors duration-300">
+                    View Project
+                  </button>
+                </Link>
               </div>
             </div>
           </div>
@@ -95,14 +99,16 @@ const Portfolio = () => {
               />
               <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-center items-center text-white">
                 <h3 className="text-2xl font-light mb-4 lg:text-[30px] lg:mb-[10px]">
-                  Bukenzo
+                  Project Bukenzo
                 </h3>
                 <p className="text-lg mb-6 lg:mb-[40px] lg:text-[20px] text-[#fff]">
                   Cooperate
                 </p>
-                <button className="border border-white px-8 lg:px-[60px] py-2 hover:bg-white lg:text-[18px] hover:text-black transition-colors duration-300">
-                  View Project
-                </button>
+                <Link to="/portfolio/4">
+                  <button className="border border-white px-8 lg:px-[60px] py-2 hover:bg-white hover:text-black lg:text-[18px] transition-colors duration-300">
+                    View Project
+                  </button>
+                </Link>
               </div>
             </div>
           </div>

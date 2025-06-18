@@ -1,25 +1,78 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 
 const AboutSection: React.FC = () => {
+  // Image arrays for both slideshows
+  const firstSlideImages = [
+    "https://res.cloudinary.com/drbxjaxya/image/upload/v1750175671/IMG_4329_zuqgxn.jpg",
+    "https://res.cloudinary.com/drbxjaxya/image/upload/v1750175670/IMG_6925_k6mc9u.jpg", // Replace with actual image URLs
+    "https://res.cloudinary.com/drbxjaxya/image/upload/v1750179566/new-image1_whfwdd.jpg",
+    "https://res.cloudinary.com/drbxjaxya/image/upload/v1750175670/IMG_4324_nasbxw.jpg",
+  ];
+
+  const secondSlideImages = [
+    "https://res.cloudinary.com/drbxjaxya/image/upload/v1750181524/image3_eywjwr.jpg",
+    "https://res.cloudinary.com/drbxjaxya/image/upload/v1750181523/image4_rxwsyf.jpg", // Replace with actual image URLs
+    "https://res.cloudinary.com/drbxjaxya/image/upload/v1750181517/image2_atiw1i.jpg",
+  ];
+
+  const [currentFirstIndex, setCurrentFirstIndex] = useState(0);
+  const [currentSecondIndex, setCurrentSecondIndex] = useState(0);
+
+  // Auto-slide effect for first slideshow
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setCurrentFirstIndex((prevIndex) =>
+        prevIndex === firstSlideImages.length - 1 ? 0 : prevIndex + 1
+      );
+    }, 5000); // Change image every 5 seconds
+
+    return () => clearInterval(timer);
+  }, []);
+
+  // Auto-slide effect for second slideshow
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setCurrentSecondIndex((prevIndex) =>
+        prevIndex === secondSlideImages.length - 1 ? 0 : prevIndex + 1
+      );
+    }, 5000);
+
+    return () => clearInterval(timer);
+  }, []);
+
   return (
-    <div className="w-full pt-[60px] px-4 lg:px-20 lg:pt-[89px] lg:pb-[80px]">
+    <div className="w-full pt-[55px] px-4 lg:px-20 lg:pt-[89px] lg:pb-[80px]">
       <div className="flex flex-col lg:flex-row items-center gap-8 lg:gap-[49px]">
-        {/* Left column - Images */}
-        <div className="w-full lg:w-[55%] flex lg:flex-row lg:gap-[10px] gap-[10px] lg:items-end">
-          <div className="w-full lg:h-[400px] lg:self-start">
-            <img
-              src="https://res.cloudinary.com/drbxjaxya/image/upload/v1749554411/IMG_9053_ofozox.jpg"
-              alt="Interior design showcase"
-              className="w-full h-auto lg:h-full object-cover"
-            />
+        {/* Left column - Slideshows */}
+        <div className="w-full lg:w-[65%] flex lg:flex-row lg:gap-[10px] gap-[10px] lg:items-end">
+          <div className="w-full lg:h-[400px] lg:self-start relative overflow-hidden">
+            {firstSlideImages.map((img, index) => (
+              <img
+                key={index}
+                src={img}
+                alt={`Interior design showcase ${index + 1}`}
+                className="w-full h-full object-cover absolute top-0 left-0 transition-opacity duration-1000"
+                style={{
+                  opacity: currentFirstIndex === index ? 1 : 0,
+                  zIndex: currentFirstIndex === index ? 1 : 0,
+                }}
+              />
+            ))}
           </div>
-          <div className="w-full lg:h-[250px] self-end">
-            <img
-              src="https://res.cloudinary.com/drbxjaxya/image/upload/v1749552795/IMG_8970_qfieip.jpg"
-              alt="Interior design showcase"
-              className="w-full h-auto lg:h-full object-cover"
-            />
+          <div className="w-full lg:h-[320px] self-end relative overflow-hidden">
+            {secondSlideImages.map((img, index) => (
+              <img
+                key={index}
+                src={img}
+                alt={`Interior design showcase ${index + 1}`}
+                className="w-full h-full object-cover absolute top-0 left-0 transition-opacity duration-1000"
+                style={{
+                  opacity: currentSecondIndex === index ? 1 : 0,
+                  zIndex: currentSecondIndex === index ? 1 : 0,
+                }}
+              />
+            ))}
           </div>
         </div>
 

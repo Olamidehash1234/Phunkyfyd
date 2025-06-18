@@ -3,13 +3,13 @@ export const portfolioData = [
     id: 1,
     category: "Commercial Space",
     image:
-      "https://res.cloudinary.com/drbxjaxya/image/upload/v1749551915/IMG_9047_icukjx.jpg",
+      "https://res.cloudinary.com/drbxjaxya/image/upload/v1749551915/IMG_9049_sh139f.jpg",
     alt: "Modern bedroom interior",
     projectName: "Project Barrels",
     description: "Lagos | Ikeja",
     year: "2024",
     showcaseImages: [
-      "https://res.cloudinary.com/drbxjaxya/image/upload/v1749551915/IMG_9049_sh139f.jpg",
+      "https://res.cloudinary.com/drbxjaxya/image/upload/v1749551915/IMG_9047_icukjx.jpg",
       "https://res.cloudinary.com/drbxjaxya/image/upload/v1749551915/IMG_9050_b7mjtv.jpg",
       "https://res.cloudinary.com/drbxjaxya/image/upload/v1749551915/IMG_9048_yyokxb.jpg",
       "https://res.cloudinary.com/drbxjaxya/image/upload/v1749551915/IMG_9047_icukjx.jpg",
@@ -17,7 +17,7 @@ export const portfolioData = [
   },
   {
     id: 2,
-    category: "Commercial Space",
+    category: "Residential",
     image:
       "https://res.cloudinary.com/drbxjaxya/image/upload/v1749552433/IMG_9011_izvd9x.jpg",
     alt: "Modern bedroom interior",
@@ -55,7 +55,7 @@ export const portfolioData = [
   },
    {
     id: 4,
-    category: "Commercial Space",
+    category: "Cooperate",
     image:
       "https://res.cloudinary.com/drbxjaxya/image/upload/v1749553244/IMG_8996_vzwaoe.jpg",
     alt: "Modern bedroom interior",
@@ -100,7 +100,7 @@ export const portfolioData = [
     id: 6,
     category: "Commercial Space",
     image:
-      "https://res.cloudinary.com/drbxjaxya/image/upload/v1749554409/IMG_9012_xanavd.jpg",
+      "https://res.cloudinary.com/drbxjaxya/image/upload/v1749555665/IMG_9041_gglzqm.jpg",
     alt: "Modern bedroom interior",
     projectName: "Project Jenny's glow (Ghana)",
     description: "Ghana | Accra",
@@ -196,6 +196,42 @@ export const portfolioData = [
       "https://res.cloudinary.com/drbxjaxya/image/upload/v1749582804/IMG_9045_jxtx07.jpg",
       "https://res.cloudinary.com/drbxjaxya/image/upload/v1749582801/IMG_9043_pd32mw.jpg",
       "https://res.cloudinary.com/drbxjaxya/image/upload/v1749582809/IMG_9046_ygusjv.jpg",
+    ],
+  },
+  {
+    id: 11,
+    category: "Residential",
+    image:
+      "https://res.cloudinary.com/drbxjaxya/image/upload/v1750242275/IMG_6941_i16yly.jpg",
+    alt: "Modern bedroom interior",
+    projectName: "Project Eesha VGC",
+    description: "Lagos | VGC",
+    location: "Lagos",
+    year: "2024",
+    showcaseImages: [
+      "https://res.cloudinary.com/drbxjaxya/image/upload/v1750242270/IMG_6942_vcxrr2.jpg",
+      "https://res.cloudinary.com/drbxjaxya/image/upload/v1750242269/IMG_6943_puzybp.jpg",
+      "https://res.cloudinary.com/drbxjaxya/image/upload/v1750242269/IMG_6944_j4kjrj.jpg",
+      "https://res.cloudinary.com/drbxjaxya/image/upload/v1750242269/IMG_6945_e28sm1.jpg",
+      "https://res.cloudinary.com/drbxjaxya/image/upload/v1750242275/IMG_6941_i16yly.jpg",
+    ],
+  },
+  {
+    id: 12,
+    category: "Commercial Space",
+    image:
+      "https://res.cloudinary.com/drbxjaxya/image/upload/v1750242115/IMG_6940_q9wcqz.jpg",
+    alt: "Modern bedroom interior",
+    projectName: "Project Zaya and Ryan",
+    description: "Lagos",
+    location: "Lagos",
+    year: "2024",
+    showcaseImages: [
+      "https://res.cloudinary.com/drbxjaxya/image/upload/v1750242115/IMG_6940_q9wcqz.jpg",
+      "https://res.cloudinary.com/drbxjaxya/image/upload/v1750242115/IMG_6932_qjmc52.jpg",
+      "https://res.cloudinary.com/drbxjaxya/image/upload/v1750242114/IMG_6934_jo1dl8.jpg",
+      "https://res.cloudinary.com/drbxjaxya/image/upload/v1750242114/IMG_6935_kqydni.jpg",
+      "https://res.cloudinary.com/drbxjaxya/image/upload/v1750242112/IMG_6939_hrbnid.jpg"
     ],
   },
 ];

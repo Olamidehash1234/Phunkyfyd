@@ -1,17 +1,6 @@
 import React from 'react';
 
 const HeroComponent: React.FC = () => {
-  // useEffect(() => {
-  //   const handleResize = () => {
-  //     console.log('Current window width:', window.innerWidth);
-  //   };
-
-  //   window.addEventListener('resize', handleResize);
-  //   // Log initial width
-  //   console.log('Initial window width:', window.innerWidth);
-
-  //   return () => window.removeEventListener('resize', handleResize);
-  // }, []);
 
   return (
     <div className="w-full pt-[40px] px-[16px] lg:px-[80px] lg:pt-[80px] lg:pb-[0px]">

@@ -77,15 +77,17 @@ const ContactComponent = () => {
   };
 
   return (
-    <div className="w-full px-[16px] lg:px-[80px] py-[40px] lg:pt-[80px]">
-      <div className="hidden lg:block absolute left-[500px] top-[70px] z-[1]">
+    <div className="w-full px-[16px] lg:px-[80px] py-[40px] lg:pt-[80px] relative">
+      {/* Background image - moved up in DOM and adjusted z-index */}
+      <div className="hidden lg:block absolute left-[500px] top-[70px] -z-10 pointer-events-none">
         <img
           src="/icons/about/bg.svg"
           alt=""
           className="opacity-50"
         />
       </div>
-      <div className="grid grid-cols-1 lg:grid-cols-3 min-h-[640px]">
+
+      <div className="grid grid-cols-1 lg:grid-cols-3 min-h-[640px] relative z-10">
         {/* Left Section - Contact Form */}
         <div className="lg:col-span-1 p-[10px] lg:pr-[20px] lg:pl-[0px] lg:pt-[0px] flex flex-col">
           <div className="max-w-[400px]">
@@ -202,20 +204,14 @@ const ContactComponent = () => {
                 
                 <div>
                   <h4 className="text-sm lg:text-[22px] font-bold lg:leading-[40px] text-[#040323] uppercase mb-3">
-                    PHONE NUMBERS:
+                    PHONE NUMBER:
                   </h4>
                   <div className="space-y-2 lg:space-y-[6px]">
                     <a 
-                      href="tel:+2347024516528" 
+                      href="tel:+2348092529183 " 
                       className="block text-[16px] text-[#040323] lg:text-[20px] lg:leading-[38px] font-bold transition-colors duration-200 hover:underline underline-offset-[2px]"
                     >
-                      +234 701 2345 678
-                    </a>
-                    <a 
-                      href="tel:+2347024516289" 
-                      className="block text-[16px] text-[#040323] lg:text-[20px] lg:leading-[38px] font-bold transition-colors duration-200 hover:underline underline-offset-[2px]"
-                    >
-                      +234 702 3456 789
+                      +2348092529183 
                     </a>
                   </div>
                 </div>
