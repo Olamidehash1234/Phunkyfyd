@@ -13,7 +13,7 @@ import Transform from "../../Home/transform";
 
 const ProjectDetails = () => {
   const { id } = useParams();
-  const project = portfolioData.find((p) => p.id === Number(id));
+  const project = portfolioData.find((p) => p.id === id);
 
   if (!project) {
     return <div>Project not found</div>;

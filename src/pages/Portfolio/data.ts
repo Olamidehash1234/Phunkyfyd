@@ -1,6 +1,6 @@
 export const portfolioData = [
   {
-    id: 1,
+    id: "project-barrels",
     category: "Commercial Space",
     image:
       "https://res.cloudinary.com/drbxjaxya/image/upload/v1749551915/IMG_9049_sh139f.jpg",
@@ -16,7 +16,7 @@ export const portfolioData = [
     ],
   },
   {
-    id: 2,
+    id: "project-beejay",
     category: "Residential",
     image:
       "https://res.cloudinary.com/drbxjaxya/image/upload/v1749552433/IMG_9011_izvd9x.jpg",
@@ -35,7 +35,7 @@ export const portfolioData = [
     ],
   },
   {
-    id: 3,
+    id: "project-bisuga",
     category: "Commercial Space",
     description: "Lagos | Ikeja",
     image:
@@ -54,7 +54,7 @@ export const portfolioData = [
     ],
   },
    {
-    id: 4,
+    id: "project-bukenzo",
     category: "Cooperate",
     image:
       "https://res.cloudinary.com/drbxjaxya/image/upload/v1749553244/IMG_8996_vzwaoe.jpg",
@@ -78,7 +78,7 @@ export const portfolioData = [
     ],
   },
   {
-    id: 5,
+    id: "project-jennys-glow",
     category: "Commercial Space",
     image:
       "https://res.cloudinary.com/drbxjaxya/image/upload/v1749554409/IMG_9012_xanavd.jpg",
@@ -97,7 +97,7 @@ export const portfolioData = [
     ],
   },
   {
-    id: 6,
+    id: "project-jennys-glow-ghana",
     category: "Commercial Space",
     image:
       "https://res.cloudinary.com/drbxjaxya/image/upload/v1749555665/IMG_9041_gglzqm.jpg",
@@ -116,7 +116,7 @@ export const portfolioData = [
     ],
   },
   {
-    id: 7,
+    id: "project-mav",
     category: "Commercial Space",
     image:
       "https://res.cloudinary.com/drbxjaxya/image/upload/v1749556296/IMG_9021_rtv98p.jpg",
@@ -137,7 +137,7 @@ export const portfolioData = [
     ],
   },
   {
-    id: 8,
+    id: "project-ruby",
     category: "Commercial Space",
     image:
       "https://res.cloudinary.com/drbxjaxya/image/upload/v1749556822/IMG_8986_b1eyz2.jpg",
@@ -161,7 +161,7 @@ export const portfolioData = [
     ],
   },
    {
-    id: 9,
+    id: "project-skin-therapy",
     category: "Commercial Space",
     image:
       "https://res.cloudinary.com/drbxjaxya/image/upload/v1749582297/IMG_9035_bpk7t0.jpg",
@@ -180,7 +180,7 @@ export const portfolioData = [
     ],
   },
   {
-    id: 10,
+    id: "project-slush-cafe",
     category: "Commercial Space",
     image:
       "https://res.cloudinary.com/drbxjaxya/image/upload/v1749582802/IMG_9044_vdjjyc.jpg",
@@ -199,7 +199,7 @@ export const portfolioData = [
     ],
   },
   {
-    id: 11,
+    id: "project-eesha-vgc",
     category: "Residential",
     image:
       "https://res.cloudinary.com/drbxjaxya/image/upload/v1750242275/IMG_6941_i16yly.jpg",
@@ -217,7 +217,7 @@ export const portfolioData = [
     ],
   },
   {
-    id: 12,
+    id: "project-zaya-and-ryan",
     category: "Commercial Space",
     image:
       "https://res.cloudinary.com/drbxjaxya/image/upload/v1750242115/IMG_6940_q9wcqz.jpg",

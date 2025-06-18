@@ -36,7 +36,7 @@ const AboutSection: React.FC = () => {
       setCurrentSecondIndex((prevIndex) =>
         prevIndex === secondSlideImages.length - 1 ? 0 : prevIndex + 1
       );
-    }, 5000);
+    }, 5003);
 
     return () => clearInterval(timer);
   }, []);

@@ -17,7 +17,7 @@ const OurDesignSolutions: React.FC = () => {
         {/* Left Video - 60% width */}
         <div className="w-full lg:w-[60%] z-[1] h-[300px] lg:h-full">
           <video
-            src="https://res.cloudinary.com/drbxjaxya/video/upload/v1749198099/design1_nsndgl.mp4"
+            src="https://res.cloudinary.com/drbxjaxya/video/upload/v1750251127/residential_v9fqnz.mp4"
             autoPlay
             loop
             muted
@@ -47,7 +47,7 @@ const OurDesignSolutions: React.FC = () => {
           {/* Bottom Image - 50% height */}
           <div className="h-[300px] lg:h-1/2 mt-2">
             <video
-              src="https://res.cloudinary.com/drbxjaxya/video/upload/v1749198529/design2_u46zja.mp4"
+              src="https://res.cloudinary.com/drbxjaxya/video/upload/v1750251310/commercial_sueu5t.mp4"
               autoPlay
               loop
               muted

@@ -56,7 +56,7 @@ const Portfolio = () => {
                 <p className="text-lg mb-6 lg:mb-[40px] lg:text-[20px] text-[#fff]">
                   Commercial
                 </p>
-                <Link to="/portfolio/12">
+                <Link to="/portfolio/project-zaya-and-ryan">
                   <button className="border border-white px-8 lg:px-[60px] py-2 hover:bg-white hover:text-black lg:text-[18px] transition-colors duration-300">
                     View Project
                   </button>
@@ -80,7 +80,7 @@ const Portfolio = () => {
                 <p className="text-lg mb-6 lg:mb-[40px] lg:text-[20px] text-[#fff]">
                   Residential
                 </p>
-                <Link to="/portfolio/11">
+                <Link to="/portfolio/project-eesha-vgc">
                   <button className="border border-white px-8 lg:px-[60px] py-2 hover:bg-white hover:text-black lg:text-[18px] transition-colors duration-300">
                     View Project
                   </button>
@@ -104,7 +104,7 @@ const Portfolio = () => {
                 <p className="text-lg mb-6 lg:mb-[40px] lg:text-[20px] text-[#fff]">
                   Cooperate
                 </p>
-                <Link to="/portfolio/4">
+                <Link to="/portfolio/project-bukenzo">
                   <button className="border border-white px-8 lg:px-[60px] py-2 hover:bg-white hover:text-black lg:text-[18px] transition-colors duration-300">
                     View Project
                   </button>
