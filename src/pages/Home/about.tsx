@@ -46,7 +46,7 @@ const AboutSection: React.FC = () => {
       <div className="flex flex-col lg:flex-row items-center gap-8 lg:gap-[49px]">
         {/* Left column - Slideshows */}
         <div className="w-full lg:w-[65%] flex lg:flex-row lg:gap-[10px] gap-[10px] lg:items-end">
-          <div className="w-full lg:h-[400px] lg:self-start relative overflow-hidden">
+          <div className="w-full h-[230px] lg:h-[400px] relative lg:self-start">
             {firstSlideImages.map((img, index) => (
               <img
                 key={index}
@@ -60,7 +60,7 @@ const AboutSection: React.FC = () => {
               />
             ))}
           </div>
-          <div className="w-full lg:h-[320px] self-end relative overflow-hidden">
+          <div className="w-full h-[170px] lg:h-[320px] relative self-end overflow-hidden">
             {secondSlideImages.map((img, index) => (
               <img
                 key={index}
