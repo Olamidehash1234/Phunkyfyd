@@ -131,9 +131,9 @@ const Navbar: React.FC = () => {
         <div className="lg:hidden bg-white border-t border-gray-100 fixed top-16 left-0 right-0 z-50">
           <div className="px-4 py-4 space-y-4">
             {/* Mobile Logo */}
-            <div className="flex justify-center pb-4">
-              <div className="w-12 h-12 bg-gray-900 rounded-full flex items-center justify-center">
-                <span className="text-yellow-400 font-bold text-lg">P</span>
+            <div className="flex justify-center">
+              <div className="w-[80px] h-[80px] rounded-full flex items-center justify-center">
+                <img src="/Logo.svg" alt="" />
               </div>
             </div>
 

@@ -4,6 +4,7 @@ import PortfolioComponent from './portfolio'
 import FAQ from './FAQ'
 import TransformSection from './transform';
 import AboutSection from './about'
+// import Ceo from './ceo';
 
 const HomePage = () => {
   return (
@@ -11,6 +12,7 @@ const HomePage = () => {
       <HeroComponent />
       <AboutSection />
       <ServicesComponent />
+      {/* <Ceo /> */}
       <PortfolioComponent />
       <FAQ />
       <TransformSection />
