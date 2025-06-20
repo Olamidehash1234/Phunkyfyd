@@ -4,42 +4,37 @@ import { Link } from "react-router-dom";
 const AboutSection: React.FC = () => {
   // Image arrays for both slideshows
   const firstSlideImages = [
-    "https://res.cloudinary.com/drbxjaxya/image/upload/v1750175671/IMG_4329_zuqgxn.jpg",
-    "https://res.cloudinary.com/drbxjaxya/image/upload/v1750175670/IMG_6925_k6mc9u.jpg", // Replace with actual image URLs
-    "https://res.cloudinary.com/drbxjaxya/image/upload/v1750179566/new-image1_whfwdd.jpg",
-    "https://res.cloudinary.com/drbxjaxya/image/upload/v1750175670/IMG_4324_nasbxw.jpg",
+    "https://res.cloudinary.com/drbxjaxya/image/upload/v1750417806/IMG_7229_vjzmq7.jpg",
+    "https://res.cloudinary.com/drbxjaxya/image/upload/v1750417800/IMG_7226_cccbok.jpg",
+    "https://res.cloudinary.com/drbxjaxya/image/upload/v1750417803/IMG_7231_shrqt8.jpg",
+    "https://res.cloudinary.com/drbxjaxya/image/upload/v1750242275/IMG_6941_i16yly.jpg",
+    "https://res.cloudinary.com/drbxjaxya/image/upload/v1750422813/IMG_5740_r84ipk-new_mrvotn.jpg"
   ];
 
   const secondSlideImages = [
-    "https://res.cloudinary.com/drbxjaxya/image/upload/v1750181524/image3_eywjwr.jpg",
-    "https://res.cloudinary.com/drbxjaxya/image/upload/v1750181523/image4_rxwsyf.jpg", // Replace with actual image URLs
-    "https://res.cloudinary.com/drbxjaxya/image/upload/v1750181517/image2_atiw1i.jpg",
+    "https://res.cloudinary.com/drbxjaxya/image/upload/v1750417800/IMG_7228_pzoprj.jpg",
+    "https://res.cloudinary.com/drbxjaxya/image/upload/v1750417801/IMG_7221_aksmt0.jpg",
+    "https://res.cloudinary.com/drbxjaxya/image/upload/v1750417799/IMG_7223_npdatd.jpg",
+    "https://res.cloudinary.com/drbxjaxya/image/upload/v1750242112/IMG_6934_jnrkwt.jpg",
+    "https://res.cloudinary.com/drbxjaxya/image/upload/v1750422799/com_byqfwz.jpg"
   ];
 
-  const [currentFirstIndex, setCurrentFirstIndex] = useState(0);
-  const [currentSecondIndex, setCurrentSecondIndex] = useState(0);
+  // Use a single index for both slideshows
+  const [currentIndex, setCurrentIndex] = useState(0);
 
-  // Auto-slide effect for first slideshow
+  // Find the max length of both arrays
+  const maxSlides = Math.max(firstSlideImages.length, secondSlideImages.length);
+
+  // Auto-slide effect for both slideshows at the same time
   useEffect(() => {
     const timer = setInterval(() => {
-      setCurrentFirstIndex((prevIndex) =>
-        prevIndex === firstSlideImages.length - 1 ? 0 : prevIndex + 1
+      setCurrentIndex((prevIndex) =>
+        prevIndex === maxSlides - 1 ? 0 : prevIndex + 1
       );
     }, 5000); // Change image every 5 seconds
 
     return () => clearInterval(timer);
-  }, []);
-
-  // Auto-slide effect for second slideshow
-  useEffect(() => {
-    const timer = setInterval(() => {
-      setCurrentSecondIndex((prevIndex) =>
-        prevIndex === secondSlideImages.length - 1 ? 0 : prevIndex + 1
-      );
-    }, 5003);
-
-    return () => clearInterval(timer);
-  }, []);
+  }, [maxSlides]);
 
   return (
     <div className="w-full pt-[55px] px-4 lg:px-20 lg:pt-[89px] lg:pb-[80px]">
@@ -54,8 +49,8 @@ const AboutSection: React.FC = () => {
                 alt={`Interior design showcase ${index + 1}`}
                 className="w-full h-full object-cover absolute top-0 left-0 transition-opacity duration-1000"
                 style={{
-                  opacity: currentFirstIndex === index ? 1 : 0,
-                  zIndex: currentFirstIndex === index ? 1 : 0,
+                  opacity: currentIndex % firstSlideImages.length === index ? 1 : 0,
+                  zIndex: currentIndex % firstSlideImages.length === index ? 1 : 0,
                 }}
               />
             ))}
@@ -68,8 +63,8 @@ const AboutSection: React.FC = () => {
                 alt={`Interior design showcase ${index + 1}`}
                 className="w-full h-full object-cover absolute top-0 left-0 transition-opacity duration-1000"
                 style={{
-                  opacity: currentSecondIndex === index ? 1 : 0,
-                  zIndex: currentSecondIndex === index ? 1 : 0,
+                  opacity: currentIndex % secondSlideImages.length === index ? 1 : 0,
+                  zIndex: currentIndex % secondSlideImages.length === index ? 1 : 0,
                 }}
               />
             ))}
@@ -79,7 +74,7 @@ const AboutSection: React.FC = () => {
         {/* Right column - Text */}
         <div className="w-full lg:w-[45%] space-y-6 lg:self-end lg:mb-[20px]">
           <p className="text-base lg:text-[18px] font-semibold lg:leading-[30px] text-[#040323] text-justify">
-            At Phunkifyd, we are more than an interior design firm; we are{" "}
+            At PHUNKIFYD INTERIORS, we are more than an interior design firm; we are{" "}
             <span className="text-[#ECAF21]"> storytellers </span> who bring
             spaces to life. With a steadfast commitment to local craftsmanship{" "}
             <span className="text-[#ECAF21]">(85% locally built)</span>, we
@@ -101,5 +96,4 @@ const AboutSection: React.FC = () => {
     </div>
   );
 };
-
 export default AboutSection;

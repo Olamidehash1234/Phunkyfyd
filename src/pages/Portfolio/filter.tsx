@@ -2,14 +2,84 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { portfolioData } from './data';
 
+// Add your other project images here
+const otherProjects = [
+  {
+    id: 'other1',
+    image: 'https://res.cloudinary.com/drbxjaxya/image/upload/v1750417807/IMG_7222_it7dke.jpg',
+    alt: 'Other Project 1',
+  },
+  {
+    id: 'other2',
+    image: 'https://res.cloudinary.com/drbxjaxya/image/upload/v1750417806/IMG_7229_vjzmq7.jpg',
+    alt: 'Other Project 2',
+    projectName: 'Sculpture Piece',
+    description: 'Modern sculpture for a living room.'
+  },
+   {
+    id: 'other3',
+    image: 'https://res.cloudinary.com/drbxjaxya/image/upload/v1750417803/IMG_7231_shrqt8.jpg',
+    alt: 'Other Project 3',
+    projectName: 'Sculpture Piece',
+    description: 'Modern sculpture for a living room.'
+  },
+   {
+    id: 'other4',
+    image: 'https://res.cloudinary.com/drbxjaxya/image/upload/v1750417802/IMG_7227_v6gkcc.jpg',
+    alt: 'Other Project 4',
+    projectName: 'Sculpture Piece',
+    description: 'Modern sculpture for a living room.'
+  },
+  {
+    id: 'other5',
+    image: 'https://res.cloudinary.com/drbxjaxya/image/upload/v1750417801/IMG_7221_aksmt0.jpg',
+    alt: 'Other Project 5',
+    projectName: 'Sculpture Piece',
+    description: 'Modern sculpture for a living room.'
+  },
+  {
+    id: 'other6',
+    image: 'https://res.cloudinary.com/drbxjaxya/image/upload/v1750417801/IMG_7218_g0ogm8.jpg',
+    alt: 'Other Project 6',
+    projectName: 'Sculpture Piece',
+    description: 'Modern sculpture for a living room.'
+  },
+  {
+    id: 'other7',
+    image: 'https://res.cloudinary.com/drbxjaxya/image/upload/v1750417800/IMG_7228_pzoprj.jpg',
+    alt: 'Other Project 7',
+    projectName: 'Sculpture Piece',
+    description: 'Modern sculpture for a living room.'
+  },
+  {
+    id: 'other8',
+    image: 'https://res.cloudinary.com/drbxjaxya/image/upload/v1750417800/IMG_7226_cccbok.jpg',
+    alt: 'Other Project 8',
+    projectName: 'Sculpture Piece',
+    description: 'Modern sculpture for a living room.'
+  },
+  {
+    id: 'other9',
+    image: 'https://res.cloudinary.com/drbxjaxya/image/upload/v1750417799/IMG_7223_npdatd.jpg',
+    alt: 'Other Project 8',
+    projectName: 'Sculpture Piece',
+    description: 'Modern sculpture for a living room.'
+  }
+];
+
 const PortfolioGallery = () => {
   const [activeTab, setActiveTab] = useState('All');
 
-  const tabs = ['All', 'Residential', 'Commercial Space', 'Cooperate'];
+  const tabs = ['All', 'Residential', 'Commercial Space', 'Cooperate', 'Other Projects'];
 
-  const filteredItems = activeTab === 'All' 
-    ? portfolioData 
-    : portfolioData.filter(item => item.category === activeTab);
+  let filteredItems;
+  if (activeTab === 'All') {
+    filteredItems = portfolioData;
+  } else if (activeTab === 'Other Projects') {
+    filteredItems = otherProjects;
+  } else {
+    filteredItems = portfolioData.filter(item => item.category === activeTab);
+  }
 
   return (
     <div id="portfolio-filter" className="overflow-hidden w-full px-[16px] pb-[40px] lg:px-[80px] lg:pb-[0px] relative">
@@ -44,8 +114,8 @@ const PortfolioGallery = () => {
         {filteredItems.map((item) => (
           <Link
             key={item.id}
-            to={`/portfolio/${item.id}`}
-            className="group relative overflow-hidden rounded-[2px] hover:shadow-xl transition-all duration-300 transform"
+            to={activeTab === 'Other Projects' ? '#' : `/portfolio/${item.id}`}
+            className={`group relative overflow-hidden rounded-[2px] hover:shadow-xl transition-all duration-300 transform`}
           >
             <div className="aspect-[4/3] lg:h-[260px] w-full">
               <img
@@ -54,16 +124,19 @@ const PortfolioGallery = () => {
                 className="w-full h-full object-cover"
               />
             </div>
-            <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-50 transition-all duration-300">
-              <div className="absolute bottom-4 left-4 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                <span className="text-[20px] lg:text-[24px] font-semibold block">
-                  {item.projectName}
-                </span>
-                <span className="text-[14px] lg:text-[16px] text-[#F8F8F8]">
-                  {item.description}
-                </span>
+            {activeTab !== 'Other Projects' && (
+              <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-50 transition-all duration-300">
+                <div className="absolute bottom-4 left-4 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                  <span className="text-[20px] lg:text-[24px] font-semibold block">
+                    {item.projectName}
+                  </span>
+                  <span className="text-[14px] lg:text-[16px] text-[#F8F8F8]">
+                    {item.description}
+                  </span>
+                </div>
               </div>
-            </div>
+            )}
+            {/* Removed projectName/description for Other Projects */}
           </Link>
         ))}
       </div>

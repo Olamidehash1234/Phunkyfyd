@@ -55,7 +55,7 @@ const Footer: React.FC = () => {
         {/* Right Section */}
         <div className="flex flex-col gap-6 lg:gap-[22px]">
           <p className="text-[#040323] lg:text-[18px] font-semibold text-sm">
-            Copyright © 2025 Phunkifyd Interiors. All rights reserved.{" "}
+            Copyright © 2025 PHUNKIFYD INTERIORS. All rights reserved.{" "}
           </p>
           <div className="flex gap-4 lg:gap-[20px]">
             <a 

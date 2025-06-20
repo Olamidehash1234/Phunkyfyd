@@ -6,7 +6,7 @@ export const portfolioData = [
       "https://res.cloudinary.com/drbxjaxya/image/upload/v1749551915/IMG_9049_sh139f.jpg",
     alt: "Modern bedroom interior",
     projectName: "Project Barrels",
-    description: "Lagos | Ikeja",
+    description: "Abuja ",
     year: "2024",
     showcaseImages: [
       "https://res.cloudinary.com/drbxjaxya/image/upload/v1749551915/IMG_9047_icukjx.jpg",
@@ -21,9 +21,9 @@ export const portfolioData = [
     image:
       "https://res.cloudinary.com/drbxjaxya/image/upload/v1749552433/IMG_9011_izvd9x.jpg",
     alt: "Modern bedroom interior",
-    description: "Lagos | Ikeja",
+    description: "Abuja ",
     projectName: "Project BeeJay",
-    location: "Lagos",
+    location: "Abuja",
     year: "2024",
     brief:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae posuere turpis. Curabitur fringilla vestibulum urna, ac tincidunt ligula lacinia eget. Etiam cursus malesuada risus sit amet laoreet. Proin varius purus consectetur felis blandit maximus. Nunc placerat erat tortor, non imperdiet lorem feugiat sit amet. Mauris vitae dolor dictum, ullamcorper leo vitae, aliquam arcu. Sed tincidunt imperdiet consequat.",
@@ -37,12 +37,12 @@ export const portfolioData = [
   {
     id: "project-bisuga",
     category: "Commercial Space",
-    description: "Lagos | Ikeja",
+    description: "Abuja ",
     image:
       "https://res.cloudinary.com/drbxjaxya/image/upload/v1749552795/IMG_8969_gyrwsp.jpg",
     alt: "Modern bedroom interior",
     projectName: "Project Bisuga",
-    location: "Lagos",
+    location: "Abuja",
     year: "2024",
     brief:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae posuere turpis. Curabitur fringilla vestibulum urna, ac tincidunt ligula lacinia eget. Etiam cursus malesuada risus sit amet laoreet. Proin varius purus consectetur felis blandit maximus. Nunc placerat erat tortor, non imperdiet lorem feugiat sit amet. Mauris vitae dolor dictum, ullamcorper leo vitae, aliquam arcu. Sed tincidunt imperdiet consequat.",
@@ -60,8 +60,8 @@ export const portfolioData = [
       "https://res.cloudinary.com/drbxjaxya/image/upload/v1749553244/IMG_8996_vzwaoe.jpg",
     alt: "Modern bedroom interior",
     projectName: "Project Bukenzo",
-    description: "Lagos | Ikeja",
-    location: "Lagos",
+    description: "Abuja | Lekki",
+    location: "Abuja",
     year: "2024",
     brief:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae posuere turpis. Curabitur fringilla vestibulum urna, ac tincidunt ligula lacinia eget. Etiam cursus malesuada risus sit amet laoreet. Proin varius purus consectetur felis blandit maximus. Nunc placerat erat tortor, non imperdiet lorem feugiat sit amet. Mauris vitae dolor dictum, ullamcorper leo vitae, aliquam arcu. Sed tincidunt imperdiet consequat.",
@@ -84,8 +84,8 @@ export const portfolioData = [
       "https://res.cloudinary.com/drbxjaxya/image/upload/v1749554409/IMG_9012_xanavd.jpg",
     alt: "Modern bedroom interior",
     projectName: "Project Jenny's glow",
-    description: "Lagos | Ikeja",
-    location: "Lagos",
+    description: "Abuja ",
+    location: "Abuja",
     year: "2024",
     brief:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae posuere turpis. Curabitur fringilla vestibulum urna, ac tincidunt ligula lacinia eget. Etiam cursus malesuada risus sit amet laoreet. Proin varius purus consectetur felis blandit maximus. Nunc placerat erat tortor, non imperdiet lorem feugiat sit amet. Mauris vitae dolor dictum, ullamcorper leo vitae, aliquam arcu. Sed tincidunt imperdiet consequat.",
@@ -104,7 +104,7 @@ export const portfolioData = [
     alt: "Modern bedroom interior",
     projectName: "Project Jenny's glow (Ghana)",
     description: "Ghana | Accra",
-    location: "Lagos",
+    location: "Abuja",
     year: "2024",
     brief:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae posuere turpis. Curabitur fringilla vestibulum urna, ac tincidunt ligula lacinia eget. Etiam cursus malesuada risus sit amet laoreet. Proin varius purus consectetur felis blandit maximus. Nunc placerat erat tortor, non imperdiet lorem feugiat sit amet. Mauris vitae dolor dictum, ullamcorper leo vitae, aliquam arcu. Sed tincidunt imperdiet consequat.",
@@ -122,8 +122,8 @@ export const portfolioData = [
       "https://res.cloudinary.com/drbxjaxya/image/upload/v1749556296/IMG_9021_rtv98p.jpg",
     alt: "Modern bedroom interior",
     projectName: "Project Mav",
-    description: "Lagos | Ikeja",
-    location: "Lagos",
+    description: "Abuja ",
+    location: "Abuja",
     year: "2024",
     brief:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae posuere turpis. Curabitur fringilla vestibulum urna, ac tincidunt ligula lacinia eget. Etiam cursus malesuada risus sit amet laoreet. Proin varius purus consectetur felis blandit maximus. Nunc placerat erat tortor, non imperdiet lorem feugiat sit amet. Mauris vitae dolor dictum, ullamcorper leo vitae, aliquam arcu. Sed tincidunt imperdiet consequat.",
@@ -143,8 +143,8 @@ export const portfolioData = [
       "https://res.cloudinary.com/drbxjaxya/image/upload/v1749556822/IMG_8986_b1eyz2.jpg",
     alt: "Modern bedroom interior",
     projectName: "Project Ruby",
-    description: "Lagos | Ikeja",
-    location: "Lagos",
+    description: "Abuja ",
+    location: "Abuja",
     year: "2024",
     brief:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae posuere turpis. Curabitur fringilla vestibulum urna, ac tincidunt ligula lacinia eget. Etiam cursus malesuada risus sit amet laoreet. Proin varius purus consectetur felis blandit maximus. Nunc placerat erat tortor, non imperdiet lorem feugiat sit amet. Mauris vitae dolor dictum, ullamcorper leo vitae, aliquam arcu. Sed tincidunt imperdiet consequat.",
@@ -167,16 +167,18 @@ export const portfolioData = [
       "https://res.cloudinary.com/drbxjaxya/image/upload/v1749582297/IMG_9035_bpk7t0.jpg",
     alt: "Modern bedroom interior",
     projectName: "Project Skin Therapy",
-    description: "Lagos | Ikeja",
-    location: "Lagos",
+    description: "Abuja ",
+    location: "Abuja",
     year: "2024",
     brief:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae posuere turpis. Curabitur fringilla vestibulum urna, ac tincidunt ligula lacinia eget. Etiam cursus malesuada risus sit amet laoreet. Proin varius purus consectetur felis blandit maximus. Nunc placerat erat tortor, non imperdiet lorem feugiat sit amet. Mauris vitae dolor dictum, ullamcorper leo vitae, aliquam arcu. Sed tincidunt imperdiet consequat.",
     showcaseImages: [
-      "https://res.cloudinary.com/drbxjaxya/image/upload/v1749582297/IMG_9037_liwx5b.jpg",
-      "https://res.cloudinary.com/drbxjaxya/image/upload/v1749582296/IMG_9033_gou30j.jpg",
-      "https://res.cloudinary.com/drbxjaxya/image/upload/v1749582296/IMG_9034_faoxvv.jpg",
-      "https://res.cloudinary.com/drbxjaxya/image/upload/v1749582296/IMG_9032_kuir0j.jpg",
+      "https://res.cloudinary.com/drbxjaxya/image/upload/v1750430282/IMG_9621_gzzdz8.jpg",
+      "https://res.cloudinary.com/drbxjaxya/image/upload/v1750430275/IMG_0422_ms9b7n.jpg",
+      "https://res.cloudinary.com/drbxjaxya/image/upload/v1750430274/IMG_1241.JPEG_egf1bo.jpg",
+      "https://res.cloudinary.com/drbxjaxya/image/upload/v1750430265/IMG_1174.JPEG_hhybfl.jpg",
+      "https://res.cloudinary.com/drbxjaxya/image/upload/v1750430255/IMG_9604_wx7yiv.jpg",
+      "https://res.cloudinary.com/drbxjaxya/image/upload/v1750430240/IMG_1152.JPEG_suerkn.jpg"
     ],
   },
   {
@@ -186,8 +188,8 @@ export const portfolioData = [
       "https://res.cloudinary.com/drbxjaxya/image/upload/v1749582802/IMG_9044_vdjjyc.jpg",
     alt: "Modern bedroom interior",
     projectName: "Project Slush Cafe",
-    description: "Lagos | Ikeja",
-    location: "Lagos",
+    description: "Abuja ",
+    location: "Abuja",
     year: "2024",
     brief:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae posuere turpis. Curabitur fringilla vestibulum urna, ac tincidunt ligula lacinia eget. Etiam cursus malesuada risus sit amet laoreet. Proin varius purus consectetur felis blandit maximus. Nunc placerat erat tortor, non imperdiet lorem feugiat sit amet. Mauris vitae dolor dictum, ullamcorper leo vitae, aliquam arcu. Sed tincidunt imperdiet consequat.",
@@ -205,8 +207,8 @@ export const portfolioData = [
       "https://res.cloudinary.com/drbxjaxya/image/upload/v1750242275/IMG_6941_i16yly.jpg",
     alt: "Modern bedroom interior",
     projectName: "Project Eesha VGC",
-    description: "Lagos | VGC",
-    location: "Lagos",
+    description: "Abuja | VGC",
+    location: "Abuja",
     year: "2024",
     showcaseImages: [
       "https://res.cloudinary.com/drbxjaxya/image/upload/v1750242270/IMG_6942_vcxrr2.jpg",
@@ -223,15 +225,35 @@ export const portfolioData = [
       "https://res.cloudinary.com/drbxjaxya/image/upload/v1750242115/IMG_6940_q9wcqz.jpg",
     alt: "Modern bedroom interior",
     projectName: "Project Zaya and Ryan",
-    description: "Lagos",
-    location: "Lagos",
+    description: "Abuja",
+    location: "Abuja",
     year: "2024",
     showcaseImages: [
       "https://res.cloudinary.com/drbxjaxya/image/upload/v1750242115/IMG_6940_q9wcqz.jpg",
       "https://res.cloudinary.com/drbxjaxya/image/upload/v1750242115/IMG_6932_qjmc52.jpg",
       "https://res.cloudinary.com/drbxjaxya/image/upload/v1750242114/IMG_6934_jo1dl8.jpg",
       "https://res.cloudinary.com/drbxjaxya/image/upload/v1750242114/IMG_6935_kqydni.jpg",
-      "https://res.cloudinary.com/drbxjaxya/image/upload/v1750242112/IMG_6939_hrbnid.jpg"
+      "https://res.cloudinary.com/drbxjaxya/image/upload/v1750242112/IMG_6939_hrbnid.jpg",
+      "https://res.cloudinary.com/drbxjaxya/image/upload/v1750425653/new1_esosj8.jpg",
+      "https://res.cloudinary.com/drbxjaxya/image/upload/v1750425647/new2_e16l49.jpg",
+      "https://res.cloudinary.com/drbxjaxya/image/upload/v1750425659/new3_gbvje6.jpg"
+    ],
+  },
+  {
+    id: "project-A.O-foundation",
+    category: "Commercial Space",
+    image:
+      "https://res.cloudinary.com/drbxjaxya/image/upload/v1750242115/IMG_6940_q9wcqz.jpg",
+    alt: "Modern bedroom interior",
+    projectName: "Project A.O Foundation",
+    description: "Abuja",
+    location: "Abuja",
+    year: "2024",
+    showcaseImages: [
+      "https://res.cloudinary.com/drbxjaxya/image/upload/v1750428499/IMG_6136.JPEG_ma7ws8.jpg",
+      "https://res.cloudinary.com/drbxjaxya/image/upload/v1750428498/IMG_6132.JPEG_t2rql5.jpg",
+      "https://res.cloudinary.com/drbxjaxya/image/upload/v1750428498/IMG_6131.JPEG_qvi02e.jpg",
+      "https://res.cloudinary.com/drbxjaxya/image/upload/v1750428498/IMG_6134.JPEG_sxfqmp.jpg",
     ],
   },
 ];

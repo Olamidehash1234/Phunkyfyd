@@ -50,9 +50,9 @@ const Navbar: React.FC = () => {
             </div>
 
             {/* Center Logo - Hidden on mobile, visible on desktop */}
-            <div className="hidden md:w-[100px] md:h-[100px] lg:flex flex-1 justify-center mt-[32px] ml-[90px] z-10">
+            <div className="hidden lg:w-[400px] lg:h-[100px] lg:flex flex-1 justify-center mt-[32px] ml-[90px] z-10">
               <a href="/">
-                <img src="/Logo.svg" alt="" />
+                <img src="/Logo.svg" alt="" className="lg:w-[120px]"/>
               </a>
             </div>
 

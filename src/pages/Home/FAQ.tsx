@@ -1,7 +1,7 @@
 const FAQSection = () => {
   const faqs = [
     {
-      question: "What services does Phunkifyd offer?",
+      question: "What services does PHUNKIFYD INTERIORS offer?",
       answer: "We offer interior design, furniture design, 3D rendering, sourcing and aftercare."
     },
     {
