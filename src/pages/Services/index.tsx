@@ -1,7 +1,7 @@
 import Hero from './hero';
 import Service from './service';
 import Transform from './transform';
-// import Details from './details';
+import New from './new';
 // import Process from './process';
 
 const ServicesPage = () => {
@@ -9,9 +9,9 @@ const ServicesPage = () => {
     <div>
       <Hero />
       <Service />
+      <New />
       <Transform />
-      {/* <Details />
-      <Process /> */}
+      {/* <Process /> */}
     </div>
   );
 };

@@ -3,7 +3,7 @@ import React from "react";
 const ServicesComponent: React.FC = () => {
   return (
     <div className="bg-[#FDFCF6] py-[40px] px-[16px] lg:pt-[80px] lg:pb-[0px] lg:px-[80px]">
-      <div className="border-b-[1px] border-[#0000001A] lg:pb-[80px]">
+      <div className="">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 lg:gap-0">
           {/* Left Column - Title and View All */}
           <div className="lg:col-span-1 flex flex-col">
