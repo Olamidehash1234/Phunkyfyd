@@ -3,7 +3,7 @@ export default function VisionMissionComponent() {
     <div className="pt-[40px] px-[16px] lg:py-[80px] border-t-[1px] border-[#04032333] relative">
       <div className="mx-auto">
         {/* Vision Section */}
-        <div className="flex flex-col md:flex-row lg:flex-row items-center gap-12 lg:gap-[39px] mb-10
+        <div className="flex flex-col md:flex-row lg:flex-row gap-12 lg:gap-[39px] mb-10
           lg:mb-[-240px]
           min-[1366px]:ml-[440px]
           min-[1517px]:ml-[570px]
@@ -44,7 +44,7 @@ export default function VisionMissionComponent() {
               />
             </div>
         {/* Mission Section */}
-        <div className="flex flex-col overflow-hidden md:flex-row lg:flex-row items-center gap-12
+        <div className="flex flex-col overflow-hidden md:flex-row lg:flex-row gap-12
           lg:ml-[120px]
           min-[1366px]:ml-[110px]
           min-[1517px]:ml-[120px]
@@ -52,8 +52,8 @@ export default function VisionMissionComponent() {
           min-[1821px]:ml-[140px]">
           {/* Left Image */}
           <div className="lg:w-[259px] relative z-[2]">
-            <div className="bg-gray-100 rounded-lg overflow-hidden h-[345px] lg:h-[345px]">
-              <img src="https://res.cloudinary.com/drbxjaxya/image/upload/v1749582297/IMG_9037_liwx5b.jpg" alt="" />
+            <div className="bg-gray-100 rounded-lg overflow-hidden h-[389px] lg:h-[389px]">
+              <img src="https://res.cloudinary.com/drbxjaxya/image/upload/v1750848132/IMG_6672_boq3gz.jpg" alt="" className=" w-full h-full object-cover" />
             </div>
           </div>
           

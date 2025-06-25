@@ -164,7 +164,7 @@ export const portfolioData = [
     id: "project-skin-therapy",
     category: "Commercial Space",
     image:
-      "https://res.cloudinary.com/drbxjaxya/image/upload/v1749582297/IMG_9035_bpk7t0.jpg",
+      "https://res.cloudinary.com/drbxjaxya/image/upload/v1750430240/IMG_1152.JPEG_suerkn.jpg",
     alt: "Modern bedroom interior",
     projectName: "Project Skin Therapy",
     description: "Lagos",
@@ -187,7 +187,7 @@ export const portfolioData = [
     image:
       "https://res.cloudinary.com/drbxjaxya/image/upload/v1749582802/IMG_9044_vdjjyc.jpg",
     alt: "Modern bedroom interior",
-    projectName: "Lagos",
+    projectName: "Project Slush Cafe",
     description: "Abuja ",
     location: "Abuja",
     year: "2024",
@@ -243,7 +243,7 @@ export const portfolioData = [
     id: "project-A.O-foundation",
     category: "Commercial Space",
     image:
-      "https://res.cloudinary.com/drbxjaxya/image/upload/v1750242115/IMG_6940_q9wcqz.jpg",
+      "https://res.cloudinary.com/drbxjaxya/image/upload/v1750428498/IMG_6134.JPEG_sxfqmp.jpg",
     alt: "Modern bedroom interior",
     projectName: "Project A.O Foundation",
     description: "Lagos",
