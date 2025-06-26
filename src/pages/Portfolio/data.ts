@@ -1,39 +1,39 @@
 export const portfolioData = [
-  {
-    id: "project-barrels",
-    category: "Commercial Space",
-    image:
-      "https://res.cloudinary.com/drbxjaxya/image/upload/v1749551915/IMG_9049_sh139f.jpg",
-    alt: "Modern bedroom interior",
-    projectName: "Project Barrels",
-    description: "Lagos",
-    year: "2024",
-    showcaseImages: [
-      "https://res.cloudinary.com/drbxjaxya/image/upload/v1749551915/IMG_9047_icukjx.jpg",
-      "https://res.cloudinary.com/drbxjaxya/image/upload/v1749551915/IMG_9050_b7mjtv.jpg",
-      "https://res.cloudinary.com/drbxjaxya/image/upload/v1749551915/IMG_9048_yyokxb.jpg",
-      "https://res.cloudinary.com/drbxjaxya/image/upload/v1749551915/IMG_9047_icukjx.jpg",
-    ],
-  },
-  {
-    id: "project-beejay",
-    category: "Residential",
-    image:
-      "https://res.cloudinary.com/drbxjaxya/image/upload/v1749552433/IMG_9011_izvd9x.jpg",
-    alt: "Modern bedroom interior",
-    description: "Lagos",
-    projectName: "Project BeeJay",
-    location: "Abuja",
-    year: "2024",
-    brief:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae posuere turpis. Curabitur fringilla vestibulum urna, ac tincidunt ligula lacinia eget. Etiam cursus malesuada risus sit amet laoreet. Proin varius purus consectetur felis blandit maximus. Nunc placerat erat tortor, non imperdiet lorem feugiat sit amet. Mauris vitae dolor dictum, ullamcorper leo vitae, aliquam arcu. Sed tincidunt imperdiet consequat.",
-    showcaseImages: [
-      "https://res.cloudinary.com/drbxjaxya/image/upload/v1749552434/IMG_9010_fedspj.jpg",
-      "https://res.cloudinary.com/drbxjaxya/image/upload/v1749552433/IMG_9011_izvd9x.jpg",
-      "https://res.cloudinary.com/drbxjaxya/image/upload/v1749552433/IMG_9009_pwibn8.jpg",
-      "https://res.cloudinary.com/drbxjaxya/image/upload/v1749552432/IMG_9008_onsoto.jpg",
-    ],
-  },
+  // {
+  //   id: "project-barrels",
+  //   category: "Commercial Space",
+  //   image:
+  //     "https://res.cloudinary.com/drbxjaxya/image/upload/v1749551915/IMG_9049_sh139f.jpg",
+  //   alt: "Modern bedroom interior",
+  //   projectName: "Project Barrels",
+  //   description: "Lagos",
+  //   year: "2024",
+  //   showcaseImages: [
+  //     "https://res.cloudinary.com/drbxjaxya/image/upload/v1749551915/IMG_9047_icukjx.jpg",
+  //     "https://res.cloudinary.com/drbxjaxya/image/upload/v1749551915/IMG_9050_b7mjtv.jpg",
+  //     "https://res.cloudinary.com/drbxjaxya/image/upload/v1749551915/IMG_9048_yyokxb.jpg",
+  //     "https://res.cloudinary.com/drbxjaxya/image/upload/v1749551915/IMG_9047_icukjx.jpg",
+  //   ],
+  // },
+  // {
+  //   id: "project-beejay",
+  //   category: "Residential",
+  //   image:
+  //     "https://res.cloudinary.com/drbxjaxya/image/upload/v1749552433/IMG_9011_izvd9x.jpg",
+  //   alt: "Modern bedroom interior",
+  //   description: "Lagos",
+  //   projectName: "Project BeeJay",
+  //   location: "Abuja",
+  //   year: "2024",
+  //   brief:
+  //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae posuere turpis. Curabitur fringilla vestibulum urna, ac tincidunt ligula lacinia eget. Etiam cursus malesuada risus sit amet laoreet. Proin varius purus consectetur felis blandit maximus. Nunc placerat erat tortor, non imperdiet lorem feugiat sit amet. Mauris vitae dolor dictum, ullamcorper leo vitae, aliquam arcu. Sed tincidunt imperdiet consequat.",
+  //   showcaseImages: [
+  //     "https://res.cloudinary.com/drbxjaxya/image/upload/v1749552434/IMG_9010_fedspj.jpg",
+  //     "https://res.cloudinary.com/drbxjaxya/image/upload/v1749552433/IMG_9011_izvd9x.jpg",
+  //     "https://res.cloudinary.com/drbxjaxya/image/upload/v1749552433/IMG_9009_pwibn8.jpg",
+  //     "https://res.cloudinary.com/drbxjaxya/image/upload/v1749552432/IMG_9008_onsoto.jpg",
+  //   ],
+  // },
   {
     id: "project-bisuga",
     category: "Commercial Space",
