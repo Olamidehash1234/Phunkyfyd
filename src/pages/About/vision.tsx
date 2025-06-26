@@ -29,8 +29,8 @@ export default function VisionMissionComponent() {
           
           {/* Right Image */}
           <div className="lg:w-[259px] relative z-[2]">
-            <div className="bg-gray-100 rounded-lg overflow-hidden h-[389px] lg:h-[389px]">
-              <img src="https://res.cloudinary.com/drbxjaxya/image/upload/v1750182360/IMG_6132.JPEG_e9vrfv.jpg" alt="" className="object-cover w-full" />
+            <div className="bg-gray-100 rounded-lg overflow-hidden h-[400px] lg:h-[389px]">
+              <img src="https://res.cloudinary.com/drbxjaxya/image/upload/v1750182360/IMG_6132.JPEG_e9vrfv.jpg" alt="" className="object-cover w-full h-full" />
             </div>
           </div>
         </div>
@@ -52,7 +52,7 @@ export default function VisionMissionComponent() {
           min-[1821px]:ml-[140px]">
           {/* Left Image */}
           <div className="lg:w-[259px] relative z-[2]">
-            <div className="bg-gray-100 rounded-lg overflow-hidden h-[389px] lg:h-[389px]">
+            <div className="bg-gray-100 rounded-lg overflow-hidden h-[400px] lg:h-[389px]">
               <img src="https://res.cloudinary.com/drbxjaxya/image/upload/v1750848132/IMG_6672_boq3gz.jpg" alt="" className=" w-full h-full object-cover" />
             </div>
           </div>
